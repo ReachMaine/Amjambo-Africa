@@ -11,6 +11,43 @@
 ------------------------------------------------------- */
 @import "partials/colors";
 
+/**** header stuff... ***/
+#top-header {
+  // .container {
+    background-image: url(./images/tag-line.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    padding: 13px 0;
+//  }
+}
+// set header background-image
+#main-header {
+    background-image: url(./images/header-bkg.jpg);
+    background-position: top center;
+    background-size: cover;
+  #et-navigation {
+    background-color: white;
+    width: 100%;
+    #et-menu {// ul
+      margin : auto;
+      >li>a:before {
+          top: 38px;
+      }
+      >li>a {
+        padding-top:24px;
+        padding-bottom: 30px;
+      }
+
+    }
+    #et-mobile-navigation {
+      .show-menu-button {
+        margin-left: 18px;
+      }
+    }
+
+  }
+}
 
 
 /* *** keep this at the end *** */
