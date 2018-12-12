@@ -163,7 +163,7 @@
 							<img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" />
 						</a>
 					</div> <!-- end 1st container -- zig -->
-					<div class="non-container"> <!-- begin2nd continaer in header -zig -->
+					<div class="non-container"> <!-- begin 2nd non-contianer in header -zig -->
 						<?php
 						}
 						$et_navigation_classes = extra_classes( array(
