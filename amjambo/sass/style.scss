@@ -38,7 +38,13 @@
         padding-top:24px;
         padding-bottom: 30px;
       }
-
+      // colors per category
+      >li.amjam-cat-news>a:before {
+        background-color: $amjam-news-color;
+      }
+      >li.amjam-cat-news>a:hover {
+        color: $amjam-news-color;
+      }
     }
     #et-mobile-navigation {
       .show-menu-button {

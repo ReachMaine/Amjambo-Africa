@@ -31,6 +31,10 @@
       #main-header #et-navigation #et-menu > li > a {
         padding-top: 24px;
         padding-bottom: 30px; }
+      #main-header #et-navigation #et-menu > li.amjam-cat-news > a:before {
+        background-color: #dd9933; }
+      #main-header #et-navigation #et-menu > li.amjam-cat-news > a:hover {
+        color: #dd9933; }
     #main-header #et-navigation #et-mobile-navigation .show-menu-button {
       margin-left: 18px; }
 
