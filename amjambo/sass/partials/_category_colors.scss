@@ -1,0 +1,70 @@
+/* styling for content based colors... */
+
+// menu Colors
+
+#main-header {
+  #et-navigation {
+    #et-menu{
+        // colors per category
+      >li.amjam-cat-news>a:before { // news
+        background-color: $amjam-news-color;
+      }
+      >li.amjam-cat-news>a:hover,
+      >li.amjam-cat-news.current-menu-item a {
+        color: $amjam-news-color;
+      }
+
+      >li.amjam-cat-opine>a:hover,
+      >li.amjam-cat-opine.current-menu-item a { // opinion
+        color: $amjam-opinion-color;
+      }
+      >li.amjam-cat-opine>a:before {
+        background-color: $amjam-opinion-color;
+      }
+
+      >li.amjam-cat-culture>a:hover,
+      >li.amjam-cat-culture.current-menu-item a  { // culture
+        color: $amjam-culture-color;
+      }
+      >li.amjam-cat-culture>a:before {
+        background-color: $amjam-culture-color;
+      }
+
+      >li.amjam-cat-africa>a:hover,
+      >li.amjam-cat-africa.current-menu-item a   { // about africa
+        color: $amjam-africa-color;
+      }
+      >li.amjam-cat-africa>a:before {
+        background-color: $amjam-africa-color;
+      }
+
+      >li.amjam-cat-calendar>a:hover,
+      >li.amjam-cat-calendar.current-menu-item a  { // calendar
+        color: $amjam-calendar-color;
+      }
+      >li.amjam-cat-calendar>a:before {
+        background-color: $amjam-calendar-color;
+      }
+
+      >li.amjam-cat-listings>a:hover,
+      >li.amjam-cat-listings.current-menu-item a { // listings
+        color: $amjam-listings-color;
+      }
+      >li.amjam-cat-listings>a:before {
+        background-color: $amjam-listings-color;
+      }
+    }
+  }
+  #et-mobile-navigation {
+  }
+}
+
+// single articles
+.single-post {
+  #main-content {
+    article.category-news,
+    article.category-nouvelles {
+      border-top: 4px solid $amjam-news-color;
+    }
+  }
+}

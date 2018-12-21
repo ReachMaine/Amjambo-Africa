@@ -10,7 +10,7 @@
 /* =Theme customization starts here
 ------------------------------------------------------- */
 @import "partials/colors";
-
+@import "partials/category_colors";
 /**** header stuff... ***/
 #top-header {
   // .container {
@@ -29,7 +29,7 @@
   #et-navigation {
     background-color: white;
     width: 100%;
-    #et-menu {// ul
+    ul#et-menu {// ul
       margin : auto;
       >li>a:before {
           top: 38px;
@@ -38,58 +38,17 @@
         padding-top:24px;
         padding-bottom: 30px;
       }
-      // colors per category
-      >li.amjam-cat-news>a:before { // news
-        background-color: $amjam-news-color;
-      }
-      >li.amjam-cat-news>a:hover {
-        color: $amjam-news-color;
-      }
-
-      >li.amjam-cat-opine>a:hover { // opinion
-        color: $amjam-opinion-color;
-      }
-      >li.amjam-cat-opine>a:before {
-        background-color: $amjam-opinion-color;
-      }
-
-      >li.amjam-cat-culture>a:hover { // culture
-        color: $amjam-culture-color;
-      }
-      >li.amjam-cat-culture>a:before {
-        background-color: $amjam-culture-color;
-      }
-
-      >li.amjam-cat-africa>a:hover { // about africa
-        color: $amjam-africa-color;
-      }
-      >li.amjam-cat-africa>a:before {
-        background-color: $amjam-africa-color;
-      }
-
-      >li.amjam-cat-calendar>a:hover { // calendar
-        color: $amjam-calendar-color;
-      }
-      >li.amjam-cat-calendar>a:before {
-        background-color: $amjam-calendar-color;
-      }
-
-      >li.amjam-cat-listings>a:hover { // listings
-        color: $amjam-listings-color;
-      }
-      >li.amjam-cat-listings>a:before {
-        background-color: $amjam-listings-color;
-      }
     }
     #et-mobile-navigation {
       .show-menu-button {
         margin-left: 18px;
       }
     }
-
   }
 }
 
+
+/* content */
 
 /* *** keep this at the end *** */
 @import "partials/media";
