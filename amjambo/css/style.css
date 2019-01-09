@@ -57,6 +57,13 @@
   background-image: url(./images/header-bkg.jpg);
   background-position: top center;
   background-size: cover; }
+  #main-header #header-banner {
+    background-color: #052962;
+    padding: 5px 0; }
+    #main-header #header-banner .container {
+      display: table; }
+      #main-header #header-banner .container > div {
+        display: table-cell; }
   #main-header #et-navigation {
     background-color: white;
     width: 100%; }

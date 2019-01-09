@@ -163,6 +163,16 @@
 							<img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" />
 						</a>
 					</div> <!-- end 1st container -- zig -->
+					<div id="header-banner" style=""> <!-- zig -->
+						<div class="container">
+							<div class="tagline-img">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lion.png">
+							</div>
+							<div class="tagline">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tag-line.png">
+							</div>
+						</div>
+					</div>
 					<div class="non-container"> <!-- begin 2nd non-contianer in header -zig -->
 						<?php
 						}

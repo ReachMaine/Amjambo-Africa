@@ -26,6 +26,17 @@
     background-image: url(./images/header-bkg.jpg);
     background-position: top center;
     background-size: cover;
+    #header-banner {
+      background-color: $amjam-banner-color;
+      padding: 5px 0;
+      .container {
+        //background-image: url(./images/tag-line.png);
+        display: table;
+        >div {
+          display: table-cell;
+        }
+      }
+    }
   #et-navigation {
     background-color: white;
     width: 100%;
