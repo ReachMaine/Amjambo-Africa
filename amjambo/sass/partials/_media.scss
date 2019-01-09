@@ -10,7 +10,13 @@
       margin-bottom: 0px!important;
       margin-top: 30px!important;
     }
-
+    #main-header {
+      #header-banner {
+        .tagline-img { // show lion
+          display: inline-block;
+        }
+      }
+    }
   }
 }
 

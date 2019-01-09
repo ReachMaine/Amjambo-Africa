@@ -35,22 +35,19 @@
     }
     #header-banner {
       background-color: $amjam-banner-color;
-      padding: 5px 0;
-      height: 70px;
-      .container {
-        //background-image: url(./images/tag-line.png);
-        //display: block;
+      //padding: 5px 0;
+      //height: 70px;
+      .tagline-img {
+        width: 20%;
+        margin-top: -40px;
 
-        .tagline-img {
-          width: 20%;
-          margin-top: -40px;
-          display: inline-block;
-        }
-        .tagline {
-          width: 78%;
-          display: inline-block;
-        }
       }
+      .tagline {
+        width: 78%;
+        display: inline-block;
+        padding-top: 10px;
+      }
+
     }
   #et-navigation {
     background-color: white;

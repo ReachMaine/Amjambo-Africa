@@ -86,16 +86,14 @@
     #main-header #header-widget-wrap .widget {
       float: right; }
   #main-header #header-banner {
-    background-color: #052962;
-    padding: 5px 0;
-    height: 70px; }
-    #main-header #header-banner .container .tagline-img {
+    background-color: #052962; }
+    #main-header #header-banner .tagline-img {
       width: 20%;
-      margin-top: -40px;
-      display: inline-block; }
-    #main-header #header-banner .container .tagline {
+      margin-top: -40px; }
+    #main-header #header-banner .tagline {
       width: 78%;
-      display: inline-block; }
+      display: inline-block;
+      padding-top: 10px; }
   #main-header #et-navigation {
     background-color: white;
     width: 100%; }
@@ -119,7 +117,9 @@
 @media only screen and (min-width: 768px) {
   #main-header .logo {
     margin-bottom: 0px !important;
-    margin-top: 30px !important; } }
+    margin-top: 30px !important; }
+  #main-header #main-header #header-banner .tagline-img {
+    display: inline-block; } }
 @media only screen and (max-width: 767px) {
   .centered .logo {
     height: auto; }
