@@ -163,7 +163,15 @@
 							<img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" />
 						</a>
 					</div> <!-- end 1st container -- zig -->
-					<div id="header-banner" style=""> <!-- zig -->
+
+					<?php if (is_active_sidebar('reach-header-widget')) {
+							echo '<div class="container"> <!-- begin widget container -->';
+								echo '<div id="header-widget-wrap">';
+									dynamic_sidebar( 'reach-header-widget');
+								echo '</div>';
+							echo '</div>';
+					} ?>
+					<div id="header-banner" style=""> <!-- header banner zig -->
 						<div class="container">
 							<div class="tagline-img">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lion.png">

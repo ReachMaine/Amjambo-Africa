@@ -9,6 +9,30 @@
 ------------------------------------------------------- */
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
+/* basic css stuff */
+/* .reach-responsive-video {
+	position: relative;
+	padding-bottom: 50.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 1em;
+	iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+	}
+} */
+.amjam-pill-button {
+  border-radius: 36px;
+  background-color: #a7a7a7;
+  margin-bottom: 10px;
+  color: white;
+  border: 1px solid grey;
+  padding: 12px 24px; }
+
 /* styling for content based colors... */
 #main-header #et-navigation #et-menu > li.amjam-cat-news > a:before {
   background-color: #ed1a3b; }
@@ -57,13 +81,21 @@
   background-image: url(./images/header-bkg.jpg);
   background-position: top center;
   background-size: cover; }
+  #main-header #header-widget-wrap {
+    width: 100%; }
+    #main-header #header-widget-wrap .widget {
+      float: right; }
   #main-header #header-banner {
     background-color: #052962;
-    padding: 5px 0; }
-    #main-header #header-banner .container {
-      display: table; }
-      #main-header #header-banner .container > div {
-        display: table-cell; }
+    padding: 5px 0;
+    height: 70px; }
+    #main-header #header-banner .container .tagline-img {
+      width: 20%;
+      margin-top: -40px;
+      display: inline-block; }
+    #main-header #header-banner .container .tagline {
+      width: 78%;
+      display: inline-block; }
   #main-header #et-navigation {
     background-color: white;
     width: 100%; }
@@ -83,13 +115,16 @@
 /*------------------------------------------------*/
 /*---------------[RESPONSIVE LAYOUTS]-------------*/
 /*------------------------------------------------*/
-/*-------------------[960px]------------------*/
 /*-------------------[768px]------------------*/
-@media only screen and (max-width: 980px) {
-  /*-------------------[Portfolio]------------------*/
-  /*-------------------[Sliders]------------------*/
-  /*-------------------[Menu]------------------*/ }
-/*-------------------[480px]------------------*/
+@media only screen and (min-width: 768px) {
+  #main-header .logo {
+    margin-bottom: 0px !important;
+    margin-top: 30px !important; } }
 @media only screen and (max-width: 767px) {
-  /*-------------------[Menu]------------------*/ }
-/*-------------------[320px]------------------*/
+  .centered .logo {
+    height: auto; }
+
+  #main-header #header-banner .tagline-img {
+    display: none; }
+  #main-header #header-banner .tagline {
+    width: 100%; } }

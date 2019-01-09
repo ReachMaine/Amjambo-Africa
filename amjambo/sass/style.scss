@@ -10,6 +10,7 @@
 /* =Theme customization starts here
 ------------------------------------------------------- */
 @import "partials/colors";
+@import "partials/basic";
 @import "partials/category_colors";
 /**** header stuff... ***/
 #top-header {
@@ -26,14 +27,28 @@
     background-image: url(./images/header-bkg.jpg);
     background-position: top center;
     background-size: cover;
+    #header-widget-wrap { // place for donate today button
+      width: 100%;
+      .widget {
+        float: right;
+      }
+    }
     #header-banner {
       background-color: $amjam-banner-color;
       padding: 5px 0;
+      height: 70px;
       .container {
         //background-image: url(./images/tag-line.png);
-        display: table;
-        >div {
-          display: table-cell;
+        //display: block;
+
+        .tagline-img {
+          width: 20%;
+          margin-top: -40px;
+          display: inline-block;
+        }
+        .tagline {
+          width: 78%;
+          display: inline-block;
         }
       }
     }

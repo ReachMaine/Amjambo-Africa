@@ -3,45 +3,30 @@
 /*---------------[RESPONSIVE LAYOUTS]-------------*/
 /*------------------------------------------------*/
 
-@media only screen and ( min-width: 881px ) {
-
-}
-
-/*-------------------[960px]------------------*/
-@media only screen and ( min-width: 881px ) and ( max-width: 1100px ) {
-}
-
-@media all and ( min-width: 881px ) and ( max-width: 1405px) {
-
-}
-
 /*-------------------[768px]------------------*/
-@media only screen and ( max-width: 980px ) {
+@media only screen and ( min-width: 768px ) { // bigger than tablet
+  #main-header {
+    .logo {
+      margin-bottom: 0px!important;
+      margin-top: 30px!important;
+    }
 
-	/*-------------------[Portfolio]------------------*/
-
-	/*-------------------[Sliders]------------------*/
-
-	/*-------------------[Menu]------------------*/
-
+  }
 }
 
-@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
 
-}
-
-@media screen and ( max-width: 782px ) {
-
-}
-
-/*-------------------[480px]------------------*/
-@media only screen and ( max-width: 767px ) {
-
-	/*-------------------[Menu]------------------*/
-
-}
-
-/*-------------------[320px]------------------*/
-@media only screen and ( max-width: 479px ) {
-
+@media only screen and ( max-width: 767px ) { // tablet and smaller
+  .centered .logo {
+    height: auto;
+  }
+  #main-header {
+    #header-banner {
+        .tagline-img { // hide lion
+        display: none;
+      }
+      .tagline { // make tagline full width
+        width: 100%;
+      }
+    }
+  }
 }
