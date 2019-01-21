@@ -1,0 +1,39 @@
+/* *********** styling for wpml *********** */
+
+//language Switcher widget on home page & sidebar
+.wpml-ls.wpml-ls-legacy-list-vertical { // div
+  margin: auto;
+  ul {
+    padding-bottom: 0px;
+    padding-top: 20px;
+    li.wpml-ls-item  { // default for buttons
+      border: 3px solid grey;
+      padding: 10px 20px;
+      margin-bottom: 20px!important;
+      a {
+        color: #444444;
+        text-align: center;
+      }
+    }
+    li.wpml-ls-item:not(:last-child) {
+    //      margin-bottom: 20px;
+    }
+
+    li.wpml-ls-item.wpml-ls-current-language { // current language
+      background-color: $amjam-current-lang;
+      border-color: #353535; // very dark grey
+      a {
+        background-color: $amjam-current-lang;
+        color: white
+      }
+    }
+  } // ul
+} // wpml div around widget
+// widget on sidebar
+.Xwpml-ls-sidebars-sidebar-main.wpml-ls.wpml-ls-legacy-list-vertical {
+  ul {
+    li.wpml-ls-item {
+      margin-bottom: 20px!important;
+    }
+  }
+}

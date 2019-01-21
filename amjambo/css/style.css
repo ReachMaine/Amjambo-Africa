@@ -69,6 +69,29 @@
 .single-post #main-content article.category-nouvelles {
   border-top: 4px solid #ed1a3b; }
 
+/* *********** styling for wpml *********** */
+.wpml-ls.wpml-ls-legacy-list-vertical {
+  margin: auto; }
+  .wpml-ls.wpml-ls-legacy-list-vertical ul {
+    padding-bottom: 0px;
+    padding-top: 20px; }
+    .wpml-ls.wpml-ls-legacy-list-vertical ul li.wpml-ls-item {
+      border: 3px solid grey;
+      padding: 10px 20px;
+      margin-bottom: 20px !important; }
+      .wpml-ls.wpml-ls-legacy-list-vertical ul li.wpml-ls-item a {
+        color: #444444;
+        text-align: center; }
+    .wpml-ls.wpml-ls-legacy-list-vertical ul li.wpml-ls-item.wpml-ls-current-language {
+      background-color: #052962;
+      border-color: #353535; }
+      .wpml-ls.wpml-ls-legacy-list-vertical ul li.wpml-ls-item.wpml-ls-current-language a {
+        background-color: #052962;
+        color: white; }
+
+.Xwpml-ls-sidebars-sidebar-main.wpml-ls.wpml-ls-legacy-list-vertical ul li.wpml-ls-item {
+  margin-bottom: 20px !important; }
+
 /**** header stuff... ***/
 #top-header {
   background-image: url(./images/tag-line.png);
