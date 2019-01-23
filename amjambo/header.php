@@ -174,14 +174,16 @@
 					<div id="header-banner" style=""> <!-- header banner zig -->
 						<div class="container">
 							<div class="tagline-img">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lion.png">
+								<a href="<?php echo esc_url( home_url( '/' ) );?>" >
+								   <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lion.png">
+								 </a>
 							</div>
 							<div class="tagline">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tag-line.png">
 							</div>
 						</div>
 					</div>
-					<div class="non-container"> <!-- begin 2nd non-contianer in header -zig -->
+					<div class="amjam-menu-wrapper"> <!-- begin 2nd non-contianer in header -zig -->
 						<?php
 						}
 						$et_navigation_classes = extra_classes( array(
@@ -190,43 +192,45 @@
 						?>
 
 						<!-- ET Navigation -->
-						<div id="et-navigation" class="<?php echo $et_navigation_classes; ?>">
-							<?php
-							$menu_class = 'nav';
-							if ( 'on' == et_get_option( 'extra_disable_toptier' ) ) {
-								$menu_class .= ' et_disable_top_tier';
-							}
+						<div class="container">
+							<div id="et-navigation" class="<?php echo $et_navigation_classes; ?>">
+								<?php
+								$menu_class = 'nav';
+								if ( 'on' == et_get_option( 'extra_disable_toptier' ) ) {
+									$menu_class .= ' et_disable_top_tier';
+								}
 
-							$primary_nav = wp_nav_menu( array(
-								'theme_location'            => 'primary-menu',
-								'container'                 => '',
-								'fallback_cb'               => '',
-								'menu_class'                => $menu_class,
-								'menu_id'                   => 'et-menu',
-								'echo'                      => false,
-								'walker'                    => new Extra_Walker_Nav_Menu,
-								'header_search_field_alone' => $header_vars['header_search_field_alone'],
-								'header_cart_total_alone'   => $header_vars['header_cart_total_alone'],
-							) );
+								$primary_nav = wp_nav_menu( array(
+									'theme_location'            => 'primary-menu',
+									'container'                 => '',
+									'fallback_cb'               => '',
+									'menu_class'                => $menu_class,
+									'menu_id'                   => 'et-menu',
+									'echo'                      => false,
+									'walker'                    => new Extra_Walker_Nav_Menu,
+									'header_search_field_alone' => $header_vars['header_search_field_alone'],
+									'header_cart_total_alone'   => $header_vars['header_cart_total_alone'],
+								) );
 
-							if ( !$primary_nav ) {
-							?>
-								<ul id="et-menu" class="<?php echo esc_attr( $menu_class ); ?>">
-									<?php if ( 'on' == et_get_option( 'extra_home_link' ) ) { ?>
-										<li <?php if ( is_home() ) echo 'class="current_page_item"'; ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'extra' ); ?></a></li>
-									<?php }; ?>
+								if ( !$primary_nav ) {
+								?>
+									<ul id="et-menu" class="<?php echo esc_attr( $menu_class ); ?>">
+										<?php if ( 'on' == et_get_option( 'extra_home_link' ) ) { ?>
+											<li <?php if ( is_home() ) echo 'class="current_page_item"'; ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'extra' ); ?></a></li>
+										<?php }; ?>
 
-									<?php show_page_menu( $menu_class, false, false ); ?>
-									<?php show_categories_menu( $menu_class, false ); ?>
-								</ul>
-							<?php
-							} else {
-								echo $primary_nav;
-							}
-							?>
-							<?php do_action( 'et_header_top' ); ?>
-						</div><!-- /#et-navigation -->
-					</div><!-- /.container -->
+										<?php show_page_menu( $menu_class, false, false ); ?>
+										<?php show_categories_menu( $menu_class, false ); ?>
+									</ul>
+								<?php
+								} else {
+									echo $primary_nav;
+								}
+								?>
+								<?php do_action( 'et_header_top' ); ?>
+							</div><!-- /#et-navigation -->
+						</div><!-- container -->
+					</div><!-- /.non-container -->
 				</div><!-- /#main-header -->
 			</div><!-- /#main-header-wrapper -->
 
