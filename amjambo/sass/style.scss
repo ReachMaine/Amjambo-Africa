@@ -30,6 +30,8 @@
     background-size: cover;
     #header-widget-wrap { // place for donate today button
       width: 100%;
+      padding-top: 5px;
+      padding-bottom: 5px;
       .widget {
         float: right;
       }

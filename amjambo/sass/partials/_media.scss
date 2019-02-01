@@ -23,7 +23,8 @@
 
 @media only screen and ( max-width: 767px ) { // tablet and smaller
   .centered .logo {
-    height: auto;
+    //height: auto;
+    margin-bottom: 10px;
   }
   #main-header {
     #header-banner {

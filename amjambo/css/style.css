@@ -27,18 +27,22 @@
 } */
 .amjam-pill-button {
   border-radius: 36px;
-  background-color: #a7a7a7;
+  background-color: #052962;
   margin-bottom: 10px;
   color: white;
   border: 1px solid grey;
   padding: 12px 24px; }
 
+.amjam-pill-button:hover {
+  background-color: white;
+  color: #052962; }
+
 /* styling for content based colors... */
 #main-header #et-navigation #et-menu > li.amjam-cat-news > a:before {
-  background-color: #ed1a3b; }
+  background-color: #052962; }
 #main-header #et-navigation #et-menu > li.amjam-cat-news > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-news.current-menu-item a {
-  color: #ed1a3b; }
+  color: #052962; }
 #main-header #et-navigation #et-menu > li.amjam-cat-opine > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-opine.current-menu-item a {
   color: #40b554; }
@@ -67,7 +71,7 @@
 
 .single-post #main-content article.category-news,
 .single-post #main-content article.category-nouvelles {
-  border-top: 4px solid #ed1a3b; }
+  border-top: 4px solid #052962; }
 
 /* *********** styling for wpml *********** */
 .wpml-ls ul li.wpml-ls-item {
@@ -76,11 +80,12 @@
   background-color: white;
   text-align: center; }
 .wpml-ls ul li.wpml-ls-item.wpml-ls-current-language {
-  background-color: #052962;
+  background-color: #b7152c;
   border-color: #353535; }
   .wpml-ls ul li.wpml-ls-item.wpml-ls-current-language a {
-    background-color: #052962;
-    color: white; }
+    background-color: #b7152c;
+    color: white;
+    font-weight: bold; }
 
 .wpml-ls.wpml-ls-legacy-list-vertical {
   margin: auto; }
@@ -110,11 +115,13 @@
   background-position: top center;
   background-size: cover; }
   #main-header #header-widget-wrap {
-    width: 100%; }
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px; }
     #main-header #header-widget-wrap .widget {
       float: right; }
   #main-header #header-banner {
-    background-color: #052962; }
+    background-color: #b7152c; }
     #main-header #header-banner .tagline-img {
       width: 20%;
       margin-top: -40px; }
@@ -153,7 +160,7 @@
     display: inline-block; } }
 @media only screen and (max-width: 767px) {
   .centered .logo {
-    height: auto; }
+    margin-bottom: 10px; }
 
   #main-header #header-banner .tagline-img {
     display: none; }
