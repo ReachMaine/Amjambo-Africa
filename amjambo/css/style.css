@@ -37,12 +37,16 @@
   background-color: white;
   color: #052962; }
 
+.amjam-pill-button:visited {
+  color: white;
+  background-color: #052962; }
+
 /* styling for content based colors... */
 #main-header #et-navigation #et-menu > li.amjam-cat-news > a:before {
-  background-color: #052962; }
+  background-color: #0139a0; }
 #main-header #et-navigation #et-menu > li.amjam-cat-news > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-news.current-menu-item a {
-  color: #052962; }
+  color: #0139a0; }
 #main-header #et-navigation #et-menu > li.amjam-cat-opine > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-opine.current-menu-item a {
   color: #40b554; }
@@ -71,29 +75,28 @@
 
 .single-post #main-content article.category-news,
 .single-post #main-content article.category-nouvelles {
-  border-top: 4px solid #052962; }
+  border-top: 4px solid #0139a0; }
 
 /* *********** styling for wpml *********** */
-.wpml-ls ul li.wpml-ls-item {
-  border: 3px solid grey;
-  padding: 10px 20px;
-  background-color: white;
-  text-align: center; }
-.wpml-ls ul li.wpml-ls-item.wpml-ls-current-language {
-  background-color: #b7152c;
-  border-color: #353535; }
-  .wpml-ls ul li.wpml-ls-item.wpml-ls-current-language a {
-    background-color: #b7152c;
-    color: white;
-    font-weight: bold; }
+.wpml-ls {
+  width: 100%; }
+  .wpml-ls ul li.wpml-ls-item {
+    text-align: center; }
+    .wpml-ls ul li.wpml-ls-item a {
+      padding: 10px 20px; }
+    .wpml-ls ul li.wpml-ls-item a:visited {
+      color: inherit; }
+    .wpml-ls ul li.wpml-ls-item a:hover {
+      color: white; }
 
-.wpml-ls.wpml-ls-legacy-list-vertical {
-  margin: auto; }
-  .wpml-ls.wpml-ls-legacy-list-vertical ul {
-    padding-bottom: 0px;
-    padding-top: 20px; }
-    .wpml-ls.wpml-ls-legacy-list-vertical ul li.wpml-ls-item {
-      margin-bottom: 20px !important; }
+.wpml-ls-statics-shortcode_actions.wpml-ls ul li {
+  margin-bottom: 10px; }
+  .wpml-ls-statics-shortcode_actions.wpml-ls ul li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Vollkorn',Georgia,"Times New Roman",serif;
+    font-weight: bold;
+    font-size: 23px; }
 
 .wpml-ls-statics-footer.wpml-ls.wpml-ls-legacy-list-horizontal {
   padding-top: 20px;

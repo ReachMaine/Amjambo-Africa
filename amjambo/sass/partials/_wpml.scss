@@ -2,40 +2,39 @@
 
 //All language Switchers
 .wpml-ls {
+  width: 100%;
   ul {
-    li.wpml-ls-item  { // default for buttons
-      border: 3px solid grey;
-      padding: 10px 20px;
-      background-color: white;
+    li.wpml-ls-item {
       text-align: center;
-    }
-    li.wpml-ls-item.wpml-ls-current-language { // current language
-      background-color: $amjam-current-lang;
-      border-color: #353535; // very dark grey
       a {
-        background-color: $amjam-current-lang;
+        padding: 10px 20px;
+      }
+      a:visited {
+        color: inherit;
+      }
+      a:hover {
         color: white;
-        font-weight: bold;
       }
     }
   }
 }
-//language Switcher widget on home page & sidebar, i.e. vertical ones
-.wpml-ls.wpml-ls-legacy-list-vertical { // div
-  margin: auto;
+
+//language Switcher shortcode
+.wpml-ls-statics-shortcode_actions.wpml-ls {
   ul {
-    padding-bottom: 0px;
-    padding-top: 20px;
-    li.wpml-ls-item  {
-        margin-bottom: 20px!important;
-
+    li {
+      margin-bottom: 10px;
+      a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Vollkorn',Georgia,"Times New Roman",serif;
+        font-weight: bold;
+        font-size: 23px;
+      }
     }
-  } // ul
-} // wpml div around widget
-// widget on sidebar
-.wpml-ls-sidebars-sidebar-main.wpml-ls.wpml-ls-legacy-list-vertical {
-
+  }
 }
+
 // language switcher in footer (horizontal)
 .wpml-ls-statics-footer.wpml-ls.wpml-ls-legacy-list-horizontal { // div
   padding-top: 20px;
