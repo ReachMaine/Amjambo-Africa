@@ -1,0 +1,11 @@
+/* styling for events & events shortcode */
+ul.ecs-event-list {
+  list-style-type: none;
+  li.ecs-event {
+    .entry-title {
+        a {
+            font-size: 18px;
+        }
+    }
+  }
+} // end list shortcode

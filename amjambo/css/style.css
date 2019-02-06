@@ -105,6 +105,12 @@
     margin-bottom: 10px;
     margin-right: 10px; }
 
+/* styling for events & events shortcode */
+ul.ecs-event-list {
+  list-style-type: none; }
+  ul.ecs-event-list li.ecs-event .entry-title a {
+    font-size: 18px; }
+
 /**** header stuff... ***/
 #top-header {
   background-image: url(./images/tag-line.png);
