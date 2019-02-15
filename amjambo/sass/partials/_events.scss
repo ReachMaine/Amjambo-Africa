@@ -34,16 +34,29 @@ ul.ecs-event-list {
   // the events, both featured and not.
   .type-tribe_events,
   .type-tribe_events.tribe-event-featured {
+      border: 1px solid $amjam-calendar-color;
       background-color: white!important;
       padding: 1em 1.5rem 1rem 1.5em;
+      .tribe-events-list-event-title {
+        a {
+          color: $amjam-calendar-color!important;
+        }
+      }
   }
   // the featured events
   .type-tribe_events.tribe-event-featured {
-    border: 1px solid $amjam-calendar-color;
+    //border: 1px solid $amjam-calendar-color;
+    .tribe-events-list-event-title:before {
+      content: "*";
+      content: "\f005";
+      font-family: "Font Awesome 5 Free";
+      color: $amjam-calendar-color;
+      //padding-right: 10px;
+    }
     .tribe-events-list-event-title {
       margin-top: 0px;
       a {
-        color: $amjam-calendar-color!important;
+        //color: $amjam-calendar-color!important;
       }
     }
   }

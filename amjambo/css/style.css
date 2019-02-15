@@ -52,9 +52,9 @@
   color: #0139a0; }
 #main-header #et-navigation #et-menu > li.amjam-cat-opine > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-opine.current-menu-item a {
-  color: #40b554; }
+  color: #7c9a23; }
 #main-header #et-navigation #et-menu > li.amjam-cat-opine > a:before {
-  background-color: #40b554; }
+  background-color: #7c9a23; }
 #main-header #et-navigation #et-menu > li.amjam-cat-culture > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-culture.current-menu-item a {
   color: #6c4ea2; }
@@ -75,10 +75,26 @@
   color: #ec487a; }
 #main-header #et-navigation #et-menu > li.amjam-cat-listings > a:before {
   background-color: #ec487a; }
+#main-header #et-navigation #et-menu li.amjam-cat-listings .sub-menu {
+  border-color: #ec487a; }
 
+.single-post #main-content article {
+  border-top: 4px solid #e8ce75; }
 .single-post #main-content article.category-news,
-.single-post #main-content article.category-nouvelles {
-  border-top: 4px solid #0139a0; }
+.single-post #main-content article.category-nouvelles,
+.single-post #main-content article.category-makuru,
+.single-post #main-content article.category-habari {
+  border-top-color: #0139a0; }
+.single-post #main-content article.category-culture,
+.single-post #main-content article.caegory-culture-fr,
+.single-post #main-content article.category-umuco,
+.single-post #main-content article.category-utamaduni {
+  border-top-color: #6c4ea2; }
+.single-post #main-content article.category-opinion,
+.single-post #main-content article.caegory-opinion-fr,
+.single-post #main-content article.category-ibitekerozo-byabantu,
+.single-post #main-content article.category-maoni-na-mafikiri {
+  border-top-color: #7c9a23; }
 
 /* *********** styling for wpml *********** */
 .wpml-ls {
@@ -125,14 +141,19 @@ ul.ecs-event-list {
   border-color: #0066cc; }
 .tribe-events-list .tribe-events-loop .type-tribe_events,
 .tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured {
+  border: 1px solid #0066cc;
   background-color: white !important;
   padding: 1em 1.5rem 1rem 1.5em; }
-.tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured {
-  border: 1px solid #0066cc; }
-  .tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title {
-    margin-top: 0px; }
-    .tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title a {
-      color: #0066cc !important; }
+  .tribe-events-list .tribe-events-loop .type-tribe_events .tribe-events-list-event-title a,
+  .tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title a {
+    color: #0066cc !important; }
+.tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title:before {
+  content: "*";
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  color: #0066cc; }
+.tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title {
+  margin-top: 0px; }
 
 /**** header stuff... ***/
 #top-header {
@@ -174,6 +195,14 @@ ul.ecs-event-list {
       #main-header #et-navigation ul#et-menu > li > a {
         padding-top: 24px;
         padding-bottom: 30px; }
+      #main-header #et-navigation ul#et-menu ul.sub-menu {
+        background-color: #e8ce75; }
+        #main-header #et-navigation ul#et-menu ul.sub-menu li.menu-item {
+          padding: 0 20px; }
+          #main-header #et-navigation ul#et-menu ul.sub-menu li.menu-item a {
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.8);
+            padding: 5px 0; }
     #main-header #et-navigation #et-mobile-navigation .show-menu-button {
       margin-left: 18px; }
 

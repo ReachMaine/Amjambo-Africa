@@ -53,6 +53,11 @@
       >li.amjam-cat-listings>a:before {
         background-color: $amjam-listings-color;
       }
+      li.amjam-cat-listings {
+        .sub-menu {
+          border-color: $amjam-listings-color
+        }
+      }
     }
   }
   #et-mobile-navigation {
@@ -62,9 +67,28 @@
 // single articles
 .single-post {
   #main-content {
-    article.category-news,
-    article.category-nouvelles {
-      border-top: 4px solid $amjam-news-color;
+    article {
+      border-top: 4px solid $amjam-submenu-bkg;
     }
+    article.category-news,
+    article.category-nouvelles,
+    article.category-makuru,
+    article.category-habari {
+      border-top-color: $amjam-news-color;
+    }
+    article.category-culture,
+    article.caegory-culture-fr,
+    article.category-umuco,
+    article.category-utamaduni {
+      border-top-color:  $amjam-culture-color;
+    }
+    article.category-opinion,
+    article.caegory-opinion-fr,
+    article.category-ibitekerozo-byabantu,
+    article.category-maoni-na-mafikiri {
+      border-top-color:  $amjam-opinion-color;
+    }
+
+
   }
 }
