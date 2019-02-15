@@ -81,6 +81,17 @@
 
 
 /* content */
+// single post
+body.single-post {
+  article {
+    .post-header {
+      padding: 30px 20px; // was 60px.
+      .entry-title {
+        //font-size: 32px;
+      }
+    }
+  }
+}
 
 /* *** keep this at the end *** */
 @import "partials/media";

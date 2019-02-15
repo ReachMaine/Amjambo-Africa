@@ -155,6 +155,9 @@ ul.ecs-event-list {
       margin-left: 18px; }
 
 /* content */
+body.single-post article .post-header {
+  padding: 30px 20px; }
+
 /* *** keep this at the end *** */
 /* **** media **** */
 /*------------------------------------------------*/
@@ -166,7 +169,10 @@ ul.ecs-event-list {
     margin-bottom: 0px !important;
     margin-top: 30px !important; }
   #main-header #main-header #header-banner .tagline-img {
-    display: inline-block; } }
+    display: inline-block; }
+
+  body.single-post article .post-header .entry-title {
+    font-size: 32px; } }
 @media only screen and (max-width: 767px) {
   .centered .logo {
     margin-bottom: 10px; }

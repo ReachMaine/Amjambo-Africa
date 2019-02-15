@@ -18,6 +18,15 @@
       }
     }
   }
+  body.single-post {
+    article {
+      .post-header {
+        .entry-title {
+          font-size: 32px; // bump up the font
+        }
+      }
+    }
+  }
 }
 
 
