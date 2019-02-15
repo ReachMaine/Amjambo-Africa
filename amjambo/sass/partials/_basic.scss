@@ -31,3 +31,8 @@
 	color: white;
 	background-color: $amjam-pill-bkg;
 }
+.amjam-hide-extra-head-space {
+	.main-post article .header {
+		margin: 0px;
+	}
+}

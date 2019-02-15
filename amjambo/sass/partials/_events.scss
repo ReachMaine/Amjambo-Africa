@@ -1,6 +1,7 @@
 /* styling for events & events shortcode */
 ul.ecs-event-list {
   list-style-type: none;
+  padding-right: 15px;
   li.ecs-event {
     .entry-title {
         a {
@@ -8,4 +9,42 @@ ul.ecs-event-list {
         }
     }
   }
+  li.ecs-event:not(:last-child) .entry-title {
+    border-bottom: 3px solid $amjam-calendar-color;
+  }
 } // end list shortcode
+
+// both single & archive for events
+.post-type-archive-tribe_events,
+.single-tribe_events {
+  h1.entry-title {
+    padding-bottom: 0px;
+  }
+}
+
+// events archive
+.tribe-events-list .tribe-events-loop {
+  // month titles
+  .tribe-events-list-separator-month {
+
+  }
+  .tribe-events-list-separator-month:after {
+    border-color: $amjam-calendar-color;
+  }
+  // the events, both featured and not.
+  .type-tribe_events,
+  .type-tribe_events.tribe-event-featured {
+      background-color: white!important;
+      padding: 1em 1.5rem 1rem 1.5em;
+  }
+  // the featured events
+  .type-tribe_events.tribe-event-featured {
+    border: 1px solid $amjam-calendar-color;
+    .tribe-events-list-event-title {
+      margin-top: 0px;
+      a {
+        color: $amjam-calendar-color!important;
+      }
+    }
+  }
+}
