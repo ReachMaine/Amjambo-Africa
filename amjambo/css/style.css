@@ -57,14 +57,14 @@
   background-color: #7c9a23; }
 #main-header #et-navigation #et-menu > li.amjam-cat-culture > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-culture.current-menu-item a {
-  color: #6c4ea2; }
+  color: #f47b20; }
 #main-header #et-navigation #et-menu > li.amjam-cat-culture > a:before {
-  background-color: #6c4ea2; }
+  background-color: #f47b20; }
 #main-header #et-navigation #et-menu > li.amjam-cat-africa > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-africa.current-menu-item a {
-  color: #f47b20; }
+  color: #6c4ea2; }
 #main-header #et-navigation #et-menu > li.amjam-cat-africa > a:before {
-  background-color: #f47b20; }
+  background-color: #6c4ea2; }
 #main-header #et-navigation #et-menu > li.amjam-cat-calendar > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-calendar.current-menu-item a {
   color: #0066cc; }
@@ -89,7 +89,7 @@
 .single-post #main-content article.caegory-culture-fr,
 .single-post #main-content article.category-umuco,
 .single-post #main-content article.category-utamaduni {
-  border-top-color: #6c4ea2; }
+  border-top-color: #f47b20; }
 .single-post #main-content article.category-opinion,
 .single-post #main-content article.caegory-opinion-fr,
 .single-post #main-content article.category-ibitekerozo-byabantu,
@@ -155,6 +155,16 @@ ul.ecs-event-list {
 .tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title {
   margin-top: 0px; }
 
+/* styling for gravity forms */
+.gform_wrapper.amjam-white-fields_wrapper .gform_body {
+  width: 100% !important; }
+  .gform_wrapper.amjam-white-fields_wrapper .gform_body .gfield input {
+    background-color: white; }
+.gform_wrapper.amjam-white-fields_wrapper .gform_footer {
+  top: 4px; }
+  .gform_wrapper.amjam-white-fields_wrapper .gform_footer input {
+    background-color: white; }
+
 /**** header stuff... ***/
 #top-header {
   background-image: url(./images/tag-line.png);
@@ -209,6 +219,9 @@ ul.ecs-event-list {
 /* content */
 body.single-post article .post-header {
   padding: 30px 20px; }
+
+.et_pb_widget .widgettitle {
+  background-color: black; }
 
 /* *** keep this at the end *** */
 /* **** media **** */

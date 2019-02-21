@@ -14,6 +14,7 @@
 @import "partials/category_colors";
 @import "partials/wpml";
 @import "partials/events";
+@import "partials/gforms";
 /**** header stuff... ***/
 #top-header {
   // .container {
@@ -103,6 +104,10 @@ body.single-post {
       }
     }
   }
+}
+// sidebar {
+.et_pb_widget .widgettitle {
+  background-color: black;
 }
 
 /* *** keep this at the end *** */
