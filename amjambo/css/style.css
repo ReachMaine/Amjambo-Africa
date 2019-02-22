@@ -50,16 +50,22 @@
 #main-header #et-navigation #et-menu > li.amjam-cat-news > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-news.current-menu-item a {
   color: #0139a0; }
+#main-header #et-navigation #et-menu li.amjam-cat-news .sub-menu {
+  border-color: #0139a0; }
 #main-header #et-navigation #et-menu > li.amjam-cat-opine > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-opine.current-menu-item a {
   color: #7c9a23; }
 #main-header #et-navigation #et-menu > li.amjam-cat-opine > a:before {
   background-color: #7c9a23; }
+#main-header #et-navigation #et-menu li.amjam-cat-opine .sub-menu {
+  border-color: #7c9a23; }
 #main-header #et-navigation #et-menu > li.amjam-cat-culture > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-culture.current-menu-item a {
   color: #f47b20; }
 #main-header #et-navigation #et-menu > li.amjam-cat-culture > a:before {
   background-color: #f47b20; }
+#main-header #et-navigation #et-menu li.amjam-cat-culture .sub-menu {
+  border-color: #f47b20; }
 #main-header #et-navigation #et-menu > li.amjam-cat-africa > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-africa.current-menu-item a {
   color: #6c4ea2; }

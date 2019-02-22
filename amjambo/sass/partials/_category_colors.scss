@@ -13,6 +13,11 @@
       >li.amjam-cat-news.current-menu-item a {
         color: $amjam-news-color;
       }
+      li.amjam-cat-news {
+        .sub-menu {
+          border-color: $amjam-news-color;
+        }
+      }
 
       >li.amjam-cat-opine>a:hover,
       >li.amjam-cat-opine.current-menu-item a { // opinion
@@ -21,6 +26,11 @@
       >li.amjam-cat-opine>a:before {
         background-color: $amjam-opinion-color;
       }
+      li.amjam-cat-opine {
+        .sub-menu {
+          border-color: $amjam-opinion-color;
+        }
+      }
 
       >li.amjam-cat-culture>a:hover,
       >li.amjam-cat-culture.current-menu-item a  { // culture
@@ -28,6 +38,11 @@
       }
       >li.amjam-cat-culture>a:before {
         background-color: $amjam-culture-color;
+      }
+      li.amjam-cat-culture {
+        .sub-menu {
+          border-color: $amjam-culture-color;
+        }
       }
 
       >li.amjam-cat-africa>a:hover,
