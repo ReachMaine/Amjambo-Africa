@@ -226,6 +226,9 @@ ul.ecs-event-list {
 body.single-post article .post-header {
   padding: 30px 20px; }
 
+body.page article h1.entry-title {
+  font-size: 42px; }
+
 .et_pb_widget .widgettitle {
   background-color: black; }
 

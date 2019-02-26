@@ -105,6 +105,14 @@ body.single-post {
     }
   }
 }
+// single page
+body.page {
+  article {
+    h1.entry-title {
+      font-size: 42px;
+    }
+  }
+}
 // sidebar {
 .et_pb_widget .widgettitle {
   background-color: black;
