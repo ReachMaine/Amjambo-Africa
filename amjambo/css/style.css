@@ -101,6 +101,15 @@
 .single-post #main-content article.category-ibitekerozo-byabantu,
 .single-post #main-content article.category-maoni-na-mafikiri {
   border-top-color: #7c9a23; }
+.single-post #main-content article.category-about-africa,
+.single-post #main-content article.category-country-focus,
+.single-post #main-content article.categor-a-propos-de-lafrique,
+.single-post #main-content article.amakuru-yafrika,
+.single-post #main-content article.kuhusu-afrika {
+  border-top-color: #6c4ea2; }
+
+.single-tribe_events #main-content article {
+  border-top: 4px solid #0066cc; }
 
 /* *********** styling for wpml *********** */
 .wpml-ls {
@@ -136,6 +145,8 @@ ul.ecs-event-list {
   padding-right: 15px; }
   ul.ecs-event-list li.ecs-event .entry-title a {
     font-size: 18px; }
+  ul.ecs-event-list li.ecs-event .entry-title a:visited {
+    color: #000; }
   ul.ecs-event-list li.ecs-event:not(:last-child) .entry-title {
     border-bottom: 3px solid #0066cc; }
 

@@ -103,7 +103,19 @@
     article.category-maoni-na-mafikiri {
       border-top-color:  $amjam-opinion-color;
     }
-
-
+    article.category-about-africa,
+    article.category-country-focus,
+    article.categor-a-propos-de-lafrique,
+    article.amakuru-yafrika,
+    article.kuhusu-afrika   {
+      border-top-color: $amjam-africa-color;
+    }
   }
+}
+.single-tribe_events {
+    #main-content {
+      article {
+        border-top: 4px solid  $amjam-calendar-color;
+      }
+    }
 }
