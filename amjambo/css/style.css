@@ -92,9 +92,14 @@
 .single-post #main-content article.category-habari {
   border-top-color: #0139a0; }
 .single-post #main-content article.category-culture,
-.single-post #main-content article.caegory-culture-fr,
+.single-post #main-content article.category-culture-fr,
 .single-post #main-content article.category-umuco,
-.single-post #main-content article.category-utamaduni {
+.single-post #main-content article.category-utamaduni,
+.single-post #main-content article.category-comparaison-culturelle,
+.single-post #main-content article.arts,
+.single-post #main-content article.arts-musique,
+.single-post #main-content article.amashusho-nmuzika,
+.single-post #main-content article.farshaxanka {
   border-top-color: #f47b20; }
 .single-post #main-content article.category-opinion,
 .single-post #main-content article.caegory-opinion-fr,
@@ -107,6 +112,12 @@
 .single-post #main-content article.amakuru-yafrika,
 .single-post #main-content article.kuhusu-afrika {
   border-top-color: #6c4ea2; }
+.single-post #main-content article.listings-services,
+.single-post #main-content article.listes-des-services,
+.single-post #main-content article.urutonde-na-serivisi,
+.single-post #main-content article.liiska-adeegyada,
+.single-post #main-content article.huduma-za-orodha {
+  border-top-color: #ec487a; }
 
 .single-tribe_events #main-content article {
   border-top: 4px solid #0066cc; }
