@@ -118,6 +118,19 @@ body.page {
 .page .post-wrap {
   padding-top: 0px;  // remove padding for non-divi built pages, ex: calendar
 }
+// archive pages....
+body.archive {
+  article {
+    .header.amjam-no-thumb {
+      display: none;
+      width: 0px;
+    }
+  }
+}
+.posts-blog-feed-module.standard .hentry .header.amjam-no-thumb {
+    width: 0px;
+    background-color: yellow;
+}
 
 // sidebar {
 .et_pb_widget .widgettitle {
