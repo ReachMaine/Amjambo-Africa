@@ -54,11 +54,11 @@
   border-color: #0139a0; }
 #main-header #et-navigation #et-menu > li.amjam-cat-opine > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-opine.current-menu-item a {
-  color: #7c9a23; }
+  color: #3d7515; }
 #main-header #et-navigation #et-menu > li.amjam-cat-opine > a:before {
-  background-color: #7c9a23; }
+  background-color: #3d7515; }
 #main-header #et-navigation #et-menu li.amjam-cat-opine .sub-menu {
-  border-color: #7c9a23; }
+  border-color: #3d7515; }
 #main-header #et-navigation #et-menu > li.amjam-cat-culture > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-culture.current-menu-item a {
   color: #f47b20; }
@@ -71,6 +71,8 @@
   color: #6c4ea2; }
 #main-header #et-navigation #et-menu > li.amjam-cat-africa > a:before {
   background-color: #6c4ea2; }
+#main-header #et-navigation #et-menu li.amjam-cat-africa .sub-menu {
+  border-color: #6c4ea2; }
 #main-header #et-navigation #et-menu > li.amjam-cat-calendar > a:hover,
 #main-header #et-navigation #et-menu > li.amjam-cat-calendar.current-menu-item a {
   color: #0066cc; }
@@ -89,7 +91,8 @@
 .single-post #main-content article.category-news,
 .single-post #main-content article.category-nouvelles,
 .single-post #main-content article.category-makuru,
-.single-post #main-content article.category-habari {
+.single-post #main-content article.category-habari,
+.single-post #main-content article.category-news-in-brief {
   border-top-color: #0139a0; }
 .single-post #main-content article.category-culture,
 .single-post #main-content article.category-culture-fr,
@@ -105,7 +108,7 @@
 .single-post #main-content article.caegory-opinion-fr,
 .single-post #main-content article.category-ibitekerozo-byabantu,
 .single-post #main-content article.category-maoni-na-mafikiri {
-  border-top-color: #7c9a23; }
+  border-top-color: #3d7515; }
 .single-post #main-content article.category-about-africa,
 .single-post #main-content article.category-country-focus,
 .single-post #main-content article.categor-a-propos-de-lafrique,
@@ -118,6 +121,45 @@
 .single-post #main-content article.liiska-adeegyada,
 .single-post #main-content article.huduma-za-orodha {
   border-top-color: #ec487a; }
+
+.archive.category-news .posts-blog-feed-module,
+.archive.category-news-in-brief .posts-blog-feed-module,
+.archive.category-united-states .posts-blog-feed-module,
+.archive.category-africa .posts-blog-feed-module,
+.archive.category-maine .posts-blog-feed-module,
+.archive.category-legislative-update .posts-blog-feed-module,
+.archive.category-nouvelles .posts-blog-feed-module,
+.archive.category-nouvelles-en-breves .posts-blog-feed-module,
+.archive.category-a-partir-du-sol .posts-blog-feed-module,
+.archive.category-maine-fr .posts-blog-feed-module,
+.archive.category-afrique .posts-blog-feed-module,
+.archive.category-mises-a-jour-legislatives .posts-blog-feed-module,
+.archive.category-makuru .posts-blog-feed-module,
+.archive.category-incamake-yamakuru .posts-blog-feed-module,
+.archive.category-wararka .posts-blog-feed-module,
+.archive.category-war-saxaafadeed .posts-blog-feed-module,
+.archive.category-habari .posts-blog-feed-module,
+.archive.category-habari-kwa-kifupi .posts-blog-feed-module {
+  border-top-color: #0139a0; }
+
+.archive.category-opinion .posts-blog-feed-module,
+.archive.category-opinion-fr .posts-blog-feed-module,
+.archive.category-ibitekerozo-byabantu .posts-blog-feed-module,
+.archive.category-fikradaha .posts-blog-feed-module,
+.archive.category-maoni-na-mafikiri .posts-blog-feed-module {
+  border-top-color: #3d7515; }
+
+.archive.category-culture .posts-blog-feed-module,
+.archive.category-culture-fr .posts-blog-feed-module,
+.archive.category-umuco .posts-blog-feed-module,
+.archive.category-dhaqanka .posts-blog-feed-module,
+.archive.category-utamaduni .posts-blog-feed-module {
+  border-top-color: #f47b20; }
+
+.archive.category-about-africa .posts-blog-feed-module,
+.archive.category-a-propos-de-lafrique .posts-blog-feed-module,
+.archive.category-kuhusu-afrika .posts-blog-feed-module {
+  border-top-color: #6c4ea2; }
 
 .single-tribe_events #main-content article {
   border-top: 4px solid #0066cc; }
@@ -253,6 +295,17 @@ body.page article h1.entry-title {
 
 .et_pb_widget .widgettitle {
   background-color: black; }
+
+.et_pb_widget.amjam-no-widget-title .widgettitle {
+  display: none;
+  padding: 0px; }
+
+.et_pb_widget.amjam-ad-widget {
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center; }
+  .et_pb_widget.amjam-ad-widget .textwidget {
+    padding: 0px; }
 
 /* *** keep this at the end *** */
 /* **** media **** */

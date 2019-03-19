@@ -117,6 +117,24 @@ body.page {
 .et_pb_widget .widgettitle {
   background-color: black;
 }
+.et_pb_widget.amjam-no-widget-title { // dont show  widget title
+  .widgettitle {
+    display: none;
+    padding: 0px;
+  }
+}
+.et_pb_widget.amjam-ad-widget {
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+  .textwidget {
+    padding: 0px;
+  }
+  img {
+      //float: left;
+      //width: 100%;
+  }
+} // end ad
 
 /* *** keep this at the end *** */
 @import "partials/media";
