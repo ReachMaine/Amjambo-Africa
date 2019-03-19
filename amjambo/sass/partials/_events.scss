@@ -27,7 +27,7 @@ ul.ecs-event-list {
 }
 
 // events archive
-.tribe-events-list .tribe-events-loop {
+.tribe-events-list .tribe-events-loop { // listview
   // month titles
   .tribe-events-list-separator-month {
 
@@ -62,6 +62,23 @@ ul.ecs-event-list {
       a {
         //color: $amjam-calendar-color!important;
       }
+    }
+  }
+}
+// calendar view
+.tribe-events-month {
+  .tribe-events-month-event-title a { // color of non-featured events links
+    color: #000;
+  }
+}
+// background-color of featured events on month calendar
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured {
+  background-color: #cde6ff;
+}
+.post-content {
+  .tribe-events-nav-pagination {
+    a {
+      color: $amjam-calendar-color;
     }
   }
 }

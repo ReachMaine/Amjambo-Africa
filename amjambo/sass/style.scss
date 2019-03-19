@@ -111,8 +111,14 @@ body.page {
     h1.entry-title {
       font-size: 42px;
     }
+
   }
 }
+// non-divi pages
+.page .post-wrap {
+  padding-top: 0px;  // remove padding for non-divi built pages, ex: calendar
+}
+
 // sidebar {
 .et_pb_widget .widgettitle {
   background-color: black;

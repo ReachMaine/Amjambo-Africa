@@ -225,6 +225,15 @@ ul.ecs-event-list {
 .tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title {
   margin-top: 0px; }
 
+.tribe-events-month .tribe-events-month-event-title a {
+  color: #000; }
+
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured {
+  background-color: #cde6ff; }
+
+.post-content .tribe-events-nav-pagination a {
+  color: #0066cc; }
+
 /* styling for gravity forms */
 .gform_wrapper.amjam-white-fields_wrapper .gform_body {
   width: 100% !important; }
@@ -292,6 +301,9 @@ body.single-post article .post-header {
 
 body.page article h1.entry-title {
   font-size: 42px; }
+
+.page .post-wrap {
+  padding-top: 0px; }
 
 .et_pb_widget .widgettitle {
   background-color: black; }
