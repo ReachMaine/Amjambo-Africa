@@ -104,10 +104,10 @@
     article.category-umuco,
     article.category-utamaduni,
     article.category-comparaison-culturelle,
-    article.arts,
-    article.arts-musique,
-    article.amashusho-nmuzika,
-    article.farshaxanka
+    article.category-arts,
+    article.category-arts-musique,
+    article.category-amashusho-nmuzika,
+    article.category-farshaxanka
      {
       border-top-color:  $amjam-culture-color;
     }
@@ -122,16 +122,16 @@
     article.category-about-africa,
     article.category-country-focus,
     article.categor-a-propos-de-lafrique,
-    article.amakuru-yafrika,
-    article.kuhusu-afrika   {
+    article.category-amakuru-yafrika,
+    article.category-kuhusu-afrika   {
       border-top-color: $amjam-africa-color;
     }
     // listings & Services
-    article.listings-services,
-    article.listes-des-services,
-    article.urutonde-na-serivisi,
-    article.liiska-adeegyada,
-    article.huduma-za-orodha
+    article.category-listings-services,
+    article.category-listes-des-services,
+    article.category-urutonde-na-serivisi,
+    article.category-liiska-adeegyada,
+    article.category-huduma-za-orodha
        {
       border-top-color: $amjam-listings-color;
     }
@@ -194,6 +194,15 @@
    border-top-color: $amjam-africa-color;
  }
 }
+// "More" archive_list_style
+.archive.category-listings-services,
+.archive.category-food-pantries {
+   .posts-blog-feed-module {
+     border-top-color: $amjam-listings-color;
+   }
+}
+
+
 .single-tribe_events {
     #main-content {
       article {

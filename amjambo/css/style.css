@@ -99,10 +99,10 @@
 .single-post #main-content article.category-umuco,
 .single-post #main-content article.category-utamaduni,
 .single-post #main-content article.category-comparaison-culturelle,
-.single-post #main-content article.arts,
-.single-post #main-content article.arts-musique,
-.single-post #main-content article.amashusho-nmuzika,
-.single-post #main-content article.farshaxanka {
+.single-post #main-content article.category-arts,
+.single-post #main-content article.category-arts-musique,
+.single-post #main-content article.category-amashusho-nmuzika,
+.single-post #main-content article.category-farshaxanka {
   border-top-color: #f47b20; }
 .single-post #main-content article.category-opinion,
 .single-post #main-content article.caegory-opinion-fr,
@@ -112,14 +112,14 @@
 .single-post #main-content article.category-about-africa,
 .single-post #main-content article.category-country-focus,
 .single-post #main-content article.categor-a-propos-de-lafrique,
-.single-post #main-content article.amakuru-yafrika,
-.single-post #main-content article.kuhusu-afrika {
+.single-post #main-content article.category-amakuru-yafrika,
+.single-post #main-content article.category-kuhusu-afrika {
   border-top-color: #6c4ea2; }
-.single-post #main-content article.listings-services,
-.single-post #main-content article.listes-des-services,
-.single-post #main-content article.urutonde-na-serivisi,
-.single-post #main-content article.liiska-adeegyada,
-.single-post #main-content article.huduma-za-orodha {
+.single-post #main-content article.category-listings-services,
+.single-post #main-content article.category-listes-des-services,
+.single-post #main-content article.category-urutonde-na-serivisi,
+.single-post #main-content article.category-liiska-adeegyada,
+.single-post #main-content article.category-huduma-za-orodha {
   border-top-color: #ec487a; }
 
 .archive.category-news .posts-blog-feed-module,
@@ -160,6 +160,10 @@
 .archive.category-a-propos-de-lafrique .posts-blog-feed-module,
 .archive.category-kuhusu-afrika .posts-blog-feed-module {
   border-top-color: #6c4ea2; }
+
+.archive.category-listings-services .posts-blog-feed-module,
+.archive.category-food-pantries .posts-blog-feed-module {
+  border-top-color: #ec487a; }
 
 .single-tribe_events #main-content article {
   border-top: 4px solid #0066cc; }
@@ -244,6 +248,17 @@ ul.ecs-event-list {
   .gform_wrapper.amjam-white-fields_wrapper .gform_footer input {
     background-color: white; }
 
+/* styling for the Give plugin */
+/* end styling for the Give plugin */
+@media (min-width: 769px) {
+  [id*=give-form] div#give-sidebar-left {
+    width: 22%; }
+  [id*=give-form] div.summary {
+    width: 74%; } }
+@media (max-width: 768px) {
+  [id*=give-form] div#give-sidebar-left {
+    max-width: 200px;
+    margin: auto; } }
 /**** header stuff... ***/
 #top-header {
   background-image: url(./images/tag-line.png);
@@ -300,7 +315,8 @@ body.single-post article .post-header {
   padding: 30px 20px; }
 
 body.page article h1.entry-title {
-  font-size: 42px; }
+  font-size: 42px;
+  padding-bottom: 20px; }
 
 .page .post-wrap {
   padding-top: 0px; }
