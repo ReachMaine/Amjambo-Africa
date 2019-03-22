@@ -249,7 +249,9 @@ ul.ecs-event-list {
     background-color: white; }
 
 /* styling for the Give plugin */
-/* end styling for the Give plugin */
+.single.single-give_forms .give-wrap {
+  padding-top: 40px; }
+
 @media (min-width: 769px) {
   [id*=give-form] div#give-sidebar-left {
     width: 22%; }
@@ -259,6 +261,7 @@ ul.ecs-event-list {
   [id*=give-form] div#give-sidebar-left {
     max-width: 200px;
     margin: auto; } }
+/* end styling for the Give plugin */
 /**** header stuff... ***/
 #top-header {
   background-image: url(./images/tag-line.png);

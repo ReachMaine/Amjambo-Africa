@@ -1,8 +1,12 @@
 /* styling for the Give plugin */
 
 
+.single.single-give_forms {
+  .give-wrap {
+      padding-top: 40px; // add some padding at top of form....
+  }
+}
 
-/* end styling for the Give plugin */
 @media (min-width: 769px) {
   [id*=give-form] {
     div#give-sidebar-left{
@@ -22,3 +26,4 @@
     }
   }
 }
+/* end styling for the Give plugin */
