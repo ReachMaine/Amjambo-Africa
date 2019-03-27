@@ -108,11 +108,12 @@ body.single-post {
   }
 }
 // single page
-body.page {
+body.page,
+body.page.et_pb_pagebuilder_layout {
   article {
     h1.entry-title {
       font-size: 42px;
-      padding-bottom: 20px;
+      padding-bottom: 20px!important;
     }
 
   }
@@ -123,6 +124,10 @@ body.page {
 }
 // archive pages....
 body.archive {
+  .amjam-archive-description {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+  }
   article {
     .header.amjam-no-thumb {
       display: none;

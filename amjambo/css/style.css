@@ -98,11 +98,23 @@
 .single-post #main-content article.category-culture-fr,
 .single-post #main-content article.category-umuco,
 .single-post #main-content article.category-utamaduni,
+.single-post #main-content article.category-culture-comparison,
 .single-post #main-content article.category-comparaison-culturelle,
+.single-post #main-content article.category-kugereranya-imic,
+.single-post #main-content article.category-ulinganisho-wa-kitamaduni,
+.single-post #main-content article.category-isbarbardhiga-dhaqamada,
 .single-post #main-content article.category-arts,
 .single-post #main-content article.category-arts-musique,
 .single-post #main-content article.category-amashusho-nmuzika,
-.single-post #main-content article.category-farshaxanka {
+.single-post #main-content article.category-farshaxanka,
+.single-post #main-content article.category-art-music-dance-theater,
+.single-post #main-content article.category-sports,
+.single-post #main-content article.category-poetry,
+.single-post #main-content article.category-food-farming-restaurants,
+.single-post #main-content article.category-restaurants-fr,
+.single-post #main-content article.category-restora,
+.single-post #main-content article.category-migahawa,
+.single-post #main-content article.category-makhayadaha {
   border-top-color: #f47b20; }
 .single-post #main-content article.category-opinion,
 .single-post #main-content article.caegory-opinion-fr,
@@ -113,7 +125,15 @@
 .single-post #main-content article.category-country-focus,
 .single-post #main-content article.categor-a-propos-de-lafrique,
 .single-post #main-content article.category-amakuru-yafrika,
-.single-post #main-content article.category-kuhusu-afrika {
+.single-post #main-content article.category-kuhusu-afrika,
+.single-post #main-content article.category-from-the-ground,
+.single-post #main-content article.category-a-partir-du-sol,
+.single-post #main-content article.category-amakuru-aturuka-kuri-gakondo,
+.single-post #main-content article.category-ktoka-ardhi,
+.single-post #main-content article.category-cuntry-focus,
+.single-post #main-content article.focus-surles-pays,
+.single-post #main-content article.makuru-arambuye-kubihugu,
+.single-post #main-content article.habari-kwaurefu-za-nchi {
   border-top-color: #6c4ea2; }
 .single-post #main-content article.category-listings-services,
 .single-post #main-content article.category-listes-des-services,
@@ -130,7 +150,6 @@
 .archive.category-legislative-update .posts-blog-feed-module,
 .archive.category-nouvelles .posts-blog-feed-module,
 .archive.category-nouvelles-en-breves .posts-blog-feed-module,
-.archive.category-a-partir-du-sol .posts-blog-feed-module,
 .archive.category-maine-fr .posts-blog-feed-module,
 .archive.category-afrique .posts-blog-feed-module,
 .archive.category-mises-a-jour-legislatives .posts-blog-feed-module,
@@ -153,12 +172,30 @@
 .archive.category-culture-fr .posts-blog-feed-module,
 .archive.category-umuco .posts-blog-feed-module,
 .archive.category-dhaqanka .posts-blog-feed-module,
-.archive.category-utamaduni .posts-blog-feed-module {
+.archive.category-utamaduni .posts-blog-feed-module,
+.archive.category-art-music-dance-theater .posts-blog-feed-module,
+.archive.category-culture-comparison .posts-blog-feed-module,
+.archive.category-comparaison-culturelle .posts-blog-feed-module,
+.archive.category-kugereranya-imico .posts-blog-feed-module,
+.archive.category-ulinganisho-wa-kitamaduni .posts-blog-feed-module,
+.archive.category-isbarbardhiga-dhaqamada .posts-blog-feed-module,
+.archive.category-sports .posts-blog-feed-module,
+.archive.category-poetry .posts-blog-feed-module,
+.archive.category-food-farming-restaurants .posts-blog-feed-module,
+.archive.category-restaurants-fr .posts-blog-feed-module,
+.archive.category-restora .posts-blog-feed-module,
+.archive.category-migahawa .posts-blog-feed-module,
+.archive.category-makhayadaha .posts-blog-feed-module {
   border-top-color: #f47b20; }
 
 .archive.category-about-africa .posts-blog-feed-module,
 .archive.category-a-propos-de-lafrique .posts-blog-feed-module,
-.archive.category-kuhusu-afrika .posts-blog-feed-module {
+.archive.category-kuhusu-afrika .posts-blog-feed-module,
+.archive.category-from-the-ground .posts-blog-feed-module,
+.archive.category-a-partir-du-sol .posts-blog-feed-module,
+.archive.category-amakuru-aturuka-kuri-gakondo .posts-blog-feed-module,
+.archive.category-kutoka-ardhi .posts-blog-feed-module,
+.archive.category-country-focus .posts-blog-feed-module {
   border-top-color: #6c4ea2; }
 
 .archive.category-listings-services .posts-blog-feed-module,
@@ -317,13 +354,17 @@ ul.ecs-event-list {
 body.single-post article .post-header {
   padding: 30px 20px; }
 
-body.page article h1.entry-title {
+body.page article h1.entry-title,
+body.page.et_pb_pagebuilder_layout article h1.entry-title {
   font-size: 42px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px !important; }
 
 .page .post-wrap {
   padding-top: 0px; }
 
+body.archive .amjam-archive-description {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 body.archive article .header.amjam-no-thumb {
   display: none;
   width: 0px; }

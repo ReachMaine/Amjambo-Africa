@@ -103,11 +103,23 @@
     article.category-culture-fr,
     article.category-umuco,
     article.category-utamaduni,
-    article.category-comparaison-culturelle,
+    article.category-culture-comparison,
+    article.category-comparaison-culturelle, // fr
+    article.category-kugereranya-imic, // kin
+    article.category-ulinganisho-wa-kitamaduni, // swa
+    article.category-isbarbardhiga-dhaqamada, // somali
     article.category-arts,
     article.category-arts-musique,
     article.category-amashusho-nmuzika,
-    article.category-farshaxanka
+    article.category-farshaxanka,
+    article.category-art-music-dance-theater,
+    article.category-sports,
+    article.category-poetry,
+    article.category-food-farming-restaurants,
+    article.category-restaurants-fr, // fr
+    article.category-restora, // kin
+    article.category-migahawa, // swa
+    article.category-makhayadaha, // somali
      {
       border-top-color:  $amjam-culture-color;
     }
@@ -123,7 +135,16 @@
     article.category-country-focus,
     article.categor-a-propos-de-lafrique,
     article.category-amakuru-yafrika,
-    article.category-kuhusu-afrika   {
+    article.category-kuhusu-afrika,
+    article.category-from-the-ground,
+    article.category-a-partir-du-sol, // fr
+    article.category-amakuru-aturuka-kuri-gakondo,// kin
+    article.category-ktoka-ardhi, // swa
+    article.category-cuntry-focus,
+    article.focus-surles-pays, // fr
+    article.makuru-arambuye-kubihugu, //kin
+    article.habari-kwaurefu-za-nchi,//swa
+       {
       border-top-color: $amjam-africa-color;
     }
     // listings & Services
@@ -146,7 +167,6 @@
 .archive.category-legislative-update,
 .archive.category-nouvelles, // FR
 .archive.category-nouvelles-en-breves,
-.archive.category-a-partir-du-sol,
 .archive.category-maine-fr,
 .archive.category-afrique,
 .archive.category-mises-a-jour-legislatives,
@@ -177,7 +197,20 @@
 .archive.category-culture-fr, // FR
 .archive.category-umuco,// kir
 .archive.category-dhaqanka,// somali
-.archive.category-utamaduni // swa
+.archive.category-utamaduni, // swa
+.archive.category-art-music-dance-theater,
+.archive.category-culture-comparison,
+.archive.category-comparaison-culturelle,// fr
+.archive.category-kugereranya-imico, // kin
+.archive.category-ulinganisho-wa-kitamaduni,  // swa
+.archive.category-isbarbardhiga-dhaqamada,  // somali
+.archive.category-sports,
+.archive.category-poetry,
+.archive.category-food-farming-restaurants,
+.archive.category-restaurants-fr, // fr
+.archive.category-restora, // kin
+.archive.category-migahawa, // swa
+.archive.category-makhayadaha, // somali
 {
  .posts-blog-feed-module {
    border-top-color: $amjam-culture-color;
@@ -188,7 +221,12 @@
 .archive.category-a-propos-de-lafrique, // FR
 //.archive.category-,// kir
 //.archive.category-,// somali
-.archive.category-kuhusu-afrika // swa
+.archive.category-kuhusu-afrika, // swa
+.archive.category-from-the-ground,
+.archive.category-a-partir-du-sol,// fr
+.archive.category-amakuru-aturuka-kuri-gakondo, //kin
+.archive.category-kutoka-ardhi,//swa
+.archive.category-country-focus
 {
  .posts-blog-feed-module {
    border-top-color: $amjam-africa-color;

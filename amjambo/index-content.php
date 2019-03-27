@@ -2,6 +2,9 @@
 zig 19Mar19 add 'no-thumb class if there isnt a thumbnail */ ?>
 <?php $type = strtolower( et_get_option( 'archive_list_style', 'standard' ) ); ?>
 <div class="posts-blog-feed-module <?php echo esc_attr( $type ); ?> post-module et_pb_extra_module module">
+<?php if ( is_archive() ) {
+	 	the_archive_description('<div class="amjam-archive-description">', '</div>');
+ } ?>
 	<div class="paginated_content">
 		<div class="paginated_page" <?php echo 'masonry' == $type ? 'data-columns' : ''; ?>>
 		<?php
