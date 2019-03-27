@@ -18,7 +18,7 @@ function divichild_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'divichild_enqueue_scripts' );
 
 require_once(get_stylesheet_directory().'/custom/reach_CTAs.php');
-
+require_once(get_stylesheet_directory().'/custom/language.php');
 // dont display the Category:  in archives
 add_filter( 'get_the_archive_title', function ($title) {
     if ( is_category() ) {
