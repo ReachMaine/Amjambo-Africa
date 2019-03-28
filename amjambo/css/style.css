@@ -88,11 +88,22 @@
 
 .single-post #main-content article {
   border-top: 4px solid #e8ce75; }
-.single-post #main-content article.category-news,
 .single-post #main-content article.category-nouvelles,
 .single-post #main-content article.category-makuru,
 .single-post #main-content article.category-habari,
-.single-post #main-content article.category-news-in-brief {
+.single-post #main-content article.category-news-in-brief,
+.single-post #main-content article.category-maine,
+.single-post #main-content article.category-africa,
+.single-post #main-content article.category-afrique,
+.single-post #main-content article.category-amakuru-ya-afurika,
+.single-post #main-content article.category-63,
+.single-post #main-content article.category-148,
+.single-post #main-content article.category-profiles,
+.single-post #main-content article.category-195,
+.single-post #main-content article.category-196,
+.single-post #main-content article.category-197,
+.single-post #main-content article.category-194,
+.single-post #main-content article.category-news {
   border-top-color: #0139a0; }
 .single-post #main-content article.category-culture,
 .single-post #main-content article.category-culture-fr,
@@ -117,9 +128,19 @@
 .single-post #main-content article.category-makhayadaha {
   border-top-color: #f47b20; }
 .single-post #main-content article.category-opinion,
-.single-post #main-content article.caegory-opinion-fr,
+.single-post #main-content article.category-opinion-fr,
 .single-post #main-content article.category-ibitekerozo-byabantu,
-.single-post #main-content article.category-maoni-na-mafikiri {
+.single-post #main-content article.category-maoni-na-mafikiri,
+.single-post #main-content article.category-letters-to-the-editor,
+.single-post #main-content article.category-42,
+.single-post #main-content article.category-116,
+.single-post #main-content article.category-71,
+.single-post #main-content article.category-154,
+.single-post #main-content article.category-amjambo-view,
+.single-post #main-content article.category-44,
+.single-post #main-content article.category-114,
+.single-post #main-content article.category-73,
+.single-post #main-content article.category-152 {
   border-top-color: #3d7515; }
 .single-post #main-content article.category-about-africa,
 .single-post #main-content article.category-country-focus,
@@ -129,7 +150,8 @@
 .single-post #main-content article.category-from-the-ground,
 .single-post #main-content article.category-a-partir-du-sol,
 .single-post #main-content article.category-amakuru-aturuka-kuri-gakondo,
-.single-post #main-content article.category-ktoka-ardhi,
+.single-post #main-content article.category-kutoka-ardhi,
+.single-post #main-content article.category-from-the-ground-so,
 .single-post #main-content article.category-cuntry-focus,
 .single-post #main-content article.focus-surles-pays,
 .single-post #main-content article.makuru-arambuye-kubihugu,
@@ -139,14 +161,37 @@
 .single-post #main-content article.category-listes-des-services,
 .single-post #main-content article.category-urutonde-na-serivisi,
 .single-post #main-content article.category-liiska-adeegyada,
-.single-post #main-content article.category-huduma-za-orodha {
+.single-post #main-content article.category-huduma-za-orodha
+article.category-clothing-closets,
+.single-post #main-content article.category-community-associations,
+.single-post #main-content article.category-federal-holidays,
+.single-post #main-content article.category-food-pantries,
+.single-post #main-content article.category-health-care,
+.single-post #main-content article.category-help-wanted,
+.single-post #main-content article.category-housing,
+.single-post #main-content article.category-non-profit-organizations,
+.single-post #main-content article.category-24,
+.single-post #main-content article.category-191,
+.single-post #main-content article.category-190,
+.single-post #main-content article.category-professional-connections-program,
+.single-post #main-content article.category-soup-kitchens,
+.single-post #main-content article.category-volunteer-opportunities {
   border-top-color: #ec487a; }
 
 .archive.category-news .posts-blog-feed-module,
 .archive.category-news-in-brief .posts-blog-feed-module,
 .archive.category-united-states .posts-blog-feed-module,
 .archive.category-africa .posts-blog-feed-module,
+.archive.category-afrique .posts-blog-feed-module,
+.archive.category-amakuru-ya-afurika .posts-blog-feed-module,
+.archive.category-63 .posts-blog-feed-module,
+.archive.category-148 .posts-blog-feed-module,
 .archive.category-maine .posts-blog-feed-module,
+.archive.category-profiles .posts-blog-feed-module,
+.archive.category-195 .posts-blog-feed-module,
+.archive.category-196 .posts-blog-feed-module,
+.archive.category-197 .posts-blog-feed-module,
+.archive.category-194 .posts-blog-feed-module,
 .archive.category-legislative-update .posts-blog-feed-module,
 .archive.category-nouvelles .posts-blog-feed-module,
 .archive.category-nouvelles-en-breves .posts-blog-feed-module,
@@ -165,7 +210,17 @@
 .archive.category-opinion-fr .posts-blog-feed-module,
 .archive.category-ibitekerozo-byabantu .posts-blog-feed-module,
 .archive.category-fikradaha .posts-blog-feed-module,
-.archive.category-maoni-na-mafikiri .posts-blog-feed-module {
+.archive.category-maoni-na-mafikiri .posts-blog-feed-module,
+.archive.category-letters-to-the-editor .posts-blog-feed-module,
+.archive.category-42 .posts-blog-feed-module,
+.archive.category-116 .posts-blog-feed-module,
+.archive.category-71 .posts-blog-feed-module,
+.archive.category-154 .posts-blog-feed-module,
+.archive.category-amjambo-view .posts-blog-feed-module,
+.archive.category-44 .posts-blog-feed-module,
+.archive.category-114 .posts-blog-feed-module,
+.archive.category-73 .posts-blog-feed-module,
+.archive.category-152 .posts-blog-feed-module {
   border-top-color: #3d7515; }
 
 .archive.category-culture .posts-blog-feed-module,
@@ -189,17 +244,35 @@
   border-top-color: #f47b20; }
 
 .archive.category-about-africa .posts-blog-feed-module,
+.archive.category-11 .posts-blog-feed-module,
 .archive.category-a-propos-de-lafrique .posts-blog-feed-module,
+.archive.category-amakuru-yafrika .posts-blog-feed-module,
 .archive.category-kuhusu-afrika .posts-blog-feed-module,
 .archive.category-from-the-ground .posts-blog-feed-module,
+.archive.category-3 .posts-blog-feed-module,
 .archive.category-a-partir-du-sol .posts-blog-feed-module,
 .archive.category-amakuru-aturuka-kuri-gakondo .posts-blog-feed-module,
 .archive.category-kutoka-ardhi .posts-blog-feed-module,
-.archive.category-country-focus .posts-blog-feed-module {
+.archive.category-from-the-ground-so
+.archive.category-country-focus .posts-blog-feed-module,
+.archive.category-24 .posts-blog-feed-module {
   border-top-color: #6c4ea2; }
 
 .archive.category-listings-services .posts-blog-feed-module,
-.archive.category-food-pantries .posts-blog-feed-module {
+.archive.category-clothing-closets .posts-blog-feed-module,
+.archive.category-community-associations .posts-blog-feed-module,
+.archive.category-federal-holidays .posts-blog-feed-module,
+.archive.category-food-pantries .posts-blog-feed-module,
+.archive.category-health-care .posts-blog-feed-module,
+.archive.category-help-wanted .posts-blog-feed-module,
+.archive.category-housing .posts-blog-feed-module,
+.archive.category-non-profit-organizations .posts-blog-feed-module,
+.archive.category-24 .posts-blog-feed-module,
+.archive.category-191 .posts-blog-feed-module,
+.archive.category-190 .posts-blog-feed-module,
+.archive.category-professional-connections-program .posts-blog-feed-module,
+.archive.category-soup-kitchens .posts-blog-feed-module,
+.archive.category-volunteer-opportunities .posts-blog-feed-module {
   border-top-color: #ec487a; }
 
 .single-tribe_events #main-content article {
