@@ -412,6 +412,10 @@ ul.ecs-event-list {
       #main-header #et-navigation ul#et-menu > li > a {
         padding-top: 24px;
         padding-bottom: 30px; }
+      #main-header #et-navigation ul#et-menu li.menu-item-has-children > a:hover:after,
+      #main-header #et-navigation ul#et-menu li.menu-item-has-children > a:after {
+        color: black;
+        font-weight: bold; }
       #main-header #et-navigation ul#et-menu ul.sub-menu {
         background-color: #e8ce75; }
         #main-header #et-navigation ul#et-menu ul.sub-menu li.menu-item {

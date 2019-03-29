@@ -4,8 +4,8 @@
 
 #main-header {
   #et-navigation {
-    #et-menu{
-        // colors per category
+    #et-menu{ // for styling that affects all menu items see style.scss
+            // colors per category
       >li.amjam-cat-news>a:before { // news
         background-color: $amjam-news-color;
       }

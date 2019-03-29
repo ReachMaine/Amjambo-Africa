@@ -73,16 +73,24 @@
         padding-top:24px;
         padding-bottom: 30px;
       }
+      // arrow indicating flyout menu
+      li.menu-item-has-children>a:hover:after,
+      li.menu-item-has-children>a:after {
+        color: black;
+        font-weight: bold;
+      }
       ul.sub-menu {
         background-color: $amjam-submenu-bkg;
         li.menu-item {
-         padding: 0 20px;
-         a {
-           font-size: 18px;
-           color: rgba(0,0,0,0.8);
-           padding: 5px 0;
+           padding: 0 20px;
+           a {
+             font-size: 18px;
+             color: rgba(0,0,0,0.8);
+             padding: 5px 0;
+           }
          }
-       }
+
+
       }
 
     }
