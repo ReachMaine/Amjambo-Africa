@@ -355,13 +355,16 @@ ul.ecs-event-list {
   color: #0066cc; }
 
 /* styling for gravity forms */
-.gform_wrapper.amjam-white-fields_wrapper .gform_body {
-  width: 100% !important; }
-  .gform_wrapper.amjam-white-fields_wrapper .gform_body .gfield input {
+.gform_wrapper.amjam-white-fields_wrapper form.gf_simple_horizontal .gform_body {
+  width: 80%;
+  max-width: 80%;
+  display: inline-block; }
+  .gform_wrapper.amjam-white-fields_wrapper form.gf_simple_horizontal .gform_body .gfield input {
     background-color: white; }
-.gform_wrapper.amjam-white-fields_wrapper .gform_footer {
-  top: 4px; }
-  .gform_wrapper.amjam-white-fields_wrapper .gform_footer input {
+.gform_wrapper.amjam-white-fields_wrapper form.gf_simple_horizontal .gform_footer.top_label {
+  top: 4px;
+  display: inline-block; }
+  .gform_wrapper.amjam-white-fields_wrapper form.gf_simple_horizontal .gform_footer.top_label input {
     background-color: white; }
 
 /* styling for the Give plugin */
