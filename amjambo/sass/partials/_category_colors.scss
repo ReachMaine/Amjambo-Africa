@@ -157,6 +157,10 @@
     // about africa
     article.category-about-africa,
     article.category-country-focus,
+      article.category-51, // fr
+      article.category-95, // kin
+      article.category-79, // swa
+      //article.category-n, // swa
     article.categor-a-propos-de-lafrique,
     article.category-amakuru-yafrika,
     article.category-kuhusu-afrika,
@@ -288,9 +292,13 @@
     .archive.category-a-partir-du-sol,// fr
     .archive.category-amakuru-aturuka-kuri-gakondo, //kin
     .archive.category-kutoka-ardhi,//swa
-    .archive.category-from-the-ground-so
+    .archive.category-from-the-ground-so,
   .archive.category-country-focus,
-  .archive.category-24
+    .archive.category-51, // fr
+    .archive.category-95, // kin
+    .archive.category-79, // swa
+    //.archive.category-79, // swa
+    .archive.category-24
   {
    .posts-blog-feed-module {
      border-top-color: $amjam-africa-color;
@@ -306,7 +314,7 @@
 .archive.category-help-wanted,
 .archive.category-housing,
 .archive.category-non-profit-organizations,
-  .archive.category-24,  // fr
+  .archive.category-189,  // fr
   .archive.category-191, // kin
   .archive.category-190, // swa
   //.archive.category-xxx // som

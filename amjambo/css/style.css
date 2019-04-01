@@ -144,6 +144,9 @@
   border-top-color: #3d7515; }
 .single-post #main-content article.category-about-africa,
 .single-post #main-content article.category-country-focus,
+.single-post #main-content article.category-51,
+.single-post #main-content article.category-95,
+.single-post #main-content article.category-79,
 .single-post #main-content article.categor-a-propos-de-lafrique,
 .single-post #main-content article.category-amakuru-yafrika,
 .single-post #main-content article.category-kuhusu-afrika,
@@ -253,8 +256,11 @@ article.category-clothing-closets,
 .archive.category-a-partir-du-sol .posts-blog-feed-module,
 .archive.category-amakuru-aturuka-kuri-gakondo .posts-blog-feed-module,
 .archive.category-kutoka-ardhi .posts-blog-feed-module,
-.archive.category-from-the-ground-so
+.archive.category-from-the-ground-so .posts-blog-feed-module,
 .archive.category-country-focus .posts-blog-feed-module,
+.archive.category-51 .posts-blog-feed-module,
+.archive.category-95 .posts-blog-feed-module,
+.archive.category-79 .posts-blog-feed-module,
 .archive.category-24 .posts-blog-feed-module {
   border-top-color: #6c4ea2; }
 
@@ -267,7 +273,7 @@ article.category-clothing-closets,
 .archive.category-help-wanted .posts-blog-feed-module,
 .archive.category-housing .posts-blog-feed-module,
 .archive.category-non-profit-organizations .posts-blog-feed-module,
-.archive.category-24 .posts-blog-feed-module,
+.archive.category-189 .posts-blog-feed-module,
 .archive.category-191 .posts-blog-feed-module,
 .archive.category-190 .posts-blog-feed-module,
 .archive.category-professional-connections-program .posts-blog-feed-module,
