@@ -180,6 +180,26 @@ article.category-clothing-closets,
 .single-post #main-content article.category-soup-kitchens,
 .single-post #main-content article.category-volunteer-opportunities {
   border-top-color: #ec487a; }
+  .single-post #main-content article.category-listings-services .post-meta,
+  .single-post #main-content article.category-listes-des-services .post-meta,
+  .single-post #main-content article.category-urutonde-na-serivisi .post-meta,
+  .single-post #main-content article.category-liiska-adeegyada .post-meta,
+  .single-post #main-content article.category-huduma-za-orodha
+  article.category-clothing-closets .post-meta,
+  .single-post #main-content article.category-community-associations .post-meta,
+  .single-post #main-content article.category-federal-holidays .post-meta,
+  .single-post #main-content article.category-food-pantries .post-meta,
+  .single-post #main-content article.category-health-care .post-meta,
+  .single-post #main-content article.category-help-wanted .post-meta,
+  .single-post #main-content article.category-housing .post-meta,
+  .single-post #main-content article.category-non-profit-organizations .post-meta,
+  .single-post #main-content article.category-24 .post-meta,
+  .single-post #main-content article.category-191 .post-meta,
+  .single-post #main-content article.category-190 .post-meta,
+  .single-post #main-content article.category-professional-connections-program .post-meta,
+  .single-post #main-content article.category-soup-kitchens .post-meta,
+  .single-post #main-content article.category-volunteer-opportunities .post-meta {
+    display: none; }
 
 .archive.category-news .posts-blog-feed-module,
 .archive.category-news-in-brief .posts-blog-feed-module,
@@ -280,6 +300,22 @@ article.category-clothing-closets,
 .archive.category-soup-kitchens .posts-blog-feed-module,
 .archive.category-volunteer-opportunities .posts-blog-feed-module {
   border-top-color: #ec487a; }
+  .archive.category-listings-services .posts-blog-feed-module article .post-meta,
+  .archive.category-clothing-closets .posts-blog-feed-module article .post-meta,
+  .archive.category-community-associations .posts-blog-feed-module article .post-meta,
+  .archive.category-federal-holidays .posts-blog-feed-module article .post-meta,
+  .archive.category-food-pantries .posts-blog-feed-module article .post-meta,
+  .archive.category-health-care .posts-blog-feed-module article .post-meta,
+  .archive.category-help-wanted .posts-blog-feed-module article .post-meta,
+  .archive.category-housing .posts-blog-feed-module article .post-meta,
+  .archive.category-non-profit-organizations .posts-blog-feed-module article .post-meta,
+  .archive.category-189 .posts-blog-feed-module article .post-meta,
+  .archive.category-191 .posts-blog-feed-module article .post-meta,
+  .archive.category-190 .posts-blog-feed-module article .post-meta,
+  .archive.category-professional-connections-program .posts-blog-feed-module article .post-meta,
+  .archive.category-soup-kitchens .posts-blog-feed-module article .post-meta,
+  .archive.category-volunteer-opportunities .posts-blog-feed-module article .post-meta {
+    display: none; }
 
 .single-tribe_events #main-content article {
   border-top: 4px solid #0066cc; }

@@ -198,6 +198,9 @@
     article.category-volunteer-opportunities
        {
       border-top-color: $amjam-listings-color;
+      .post-meta {
+        display: none; // not strickly a color, but still category dependent
+      }
     }
   }
 }
@@ -324,6 +327,11 @@
 {
    .posts-blog-feed-module {
      border-top-color: $amjam-listings-color;
+     article {
+       .post-meta {
+         display: none;
+       }
+     }
    }
 }
 
