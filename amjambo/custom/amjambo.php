@@ -17,3 +17,19 @@ if ( !function_exists('amjam_get_related_post_by_author') ){
   	}
   } // end function
 } // end if exists
+
+// order some categories alphabetically.
+// using category meta field
+function reach_modify_query_order( $query ) {
+if ( ! is_admin() &&  $query->is_main_query() && $query->is_category()  ) {
+        $catname = get_query_var("category_name");
+        $catterm = get_term_by('slug', $catname, 'category');
+        $catid = $catterm->term_id;
+        $sortit = get_term_meta($catid, 'alpha_sort', true);
+        if ($sortit == "1") {
+          $query->set( 'orderby', 'title' );
+          $query->set( 'order', 'ASC' );
+        }
+    }
+}
+add_action( 'pre_get_posts', 'reach_modify_query_order' );
