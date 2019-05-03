@@ -46,3 +46,10 @@
     }
   }
 }
+@media only screen and ( max-width: 1024px ) and (min-width: 720px){
+  .amjambo-video-embed {
+    .fluid-width-video-wrapper {
+      padding: 33%!important;
+    }
+  }
+}

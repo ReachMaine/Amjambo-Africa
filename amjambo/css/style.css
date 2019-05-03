@@ -25,6 +25,9 @@
         height: 100%;
 	}
 } */
+.amjabo-video-embed .fluid-width-video-wrapper {
+  postion: relative; }
+
 .amjam-pill-button {
   border-radius: 36px;
   background-color: #052962;
@@ -532,3 +535,6 @@ body.archive article .header.amjam-no-thumb {
     display: none; }
   #main-header #header-banner .tagline {
     width: 100%; } }
+@media only screen and (max-width: 1024px) and (min-width: 720px) {
+  .amjambo-video-embed .fluid-width-video-wrapper {
+    padding: 33% !important; } }

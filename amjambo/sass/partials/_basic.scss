@@ -14,7 +14,11 @@
         height: 100%;
 	}
 } */
-
+.amjabo-video-embed {
+	.fluid-width-video-wrapper {
+		postion: relative;
+	}
+}
 .amjam-pill-button {
 	border-radius: 36px;
 	background-color: $amjam-pill-bkg;
