@@ -474,6 +474,11 @@ ul.ecs-event-list {
             padding: 5px 0; }
     #main-header #et-navigation #et-mobile-navigation .show-menu-button {
       margin-left: 18px; }
+    #main-header #et-navigation .search-form .screen-reader-text, #main-header #et-navigation .search-form .search-submit {
+      display: none; }
+    #main-header #et-navigation .search-form .search-field {
+      width: 200px;
+      background-color: rgba(255, 255, 255, 0.7); }
 
 /* content */
 body.single-post article .post-header {

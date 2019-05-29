@@ -91,7 +91,8 @@
          }
 
 
-      }
+      } // sub-menu
+
 
     }
     #et-mobile-navigation {
@@ -99,7 +100,17 @@
         margin-left: 18px;
       }
     }
-  }
+    // search form in menu
+    .search-form {
+      .screen-reader-text, .search-submit {
+        display: none;
+      }
+      .search-field {
+        width: 200px;
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  } // et-navigation
 }
 
 
