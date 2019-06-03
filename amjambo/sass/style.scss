@@ -36,8 +36,13 @@
       width: 100%;
       padding-top: 5px;
       padding-bottom: 5px;
+      margin-bottom: 10px;
       .widget {
         float: right;
+      }
+      .widget:not(:first-child) {
+        margin-right: 10px;
+
       }
     }
     #header-banner {

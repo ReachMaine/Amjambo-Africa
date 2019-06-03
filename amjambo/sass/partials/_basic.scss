@@ -22,7 +22,7 @@
 .amjam-pill-button {
 	border-radius: 36px;
 	background-color: $amjam-pill-bkg;
-	margin-bottom: 10px;
+	//margin-bottom: 10px;
 	color: white;
 	border: 1px solid grey;
 	padding: 12px 24px;
@@ -39,4 +39,24 @@
 	.main-post article .header {
 		margin: 0px;
 	}
+}
+
+.amjam-pill-search { // widget class
+	.search-form {
+		background-color: white;
+    border-radius: 36px;
+    border: 1px solid #c1c1c1;
+		margin-top: 6px;
+		.search-field {
+			color: #929292;
+			font-size: .9em;
+			margin-left: 10px;
+			//margin-right: 24px;
+			width: 160px;
+			background-color: transparent;
+		} // field
+		.search-submit {
+			display: none;
+		} // submit
+	} // form
 }

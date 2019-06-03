@@ -53,3 +53,26 @@
     }
   }
 }
+@media only screen and (max-width: 425px) {
+  #main-header-wrapper {
+    .container  {
+      width: 95%;
+      .widget {
+        font-size: .75em;
+        margin-right: 2px!important;
+      }
+      .amjam-pill-button {
+        .button.amjambo-pill-button {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+      .amjam-pill-search {
+        .search-field {
+          margin-left:  4px;
+          width: 140px;
+        }
+      }
+    }
+  }
+}

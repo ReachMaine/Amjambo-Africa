@@ -31,7 +31,6 @@
 .amjam-pill-button {
   border-radius: 36px;
   background-color: #052962;
-  margin-bottom: 10px;
   color: white;
   border: 1px solid grey;
   padding: 12px 24px; }
@@ -46,6 +45,20 @@
 
 .amjam-hide-extra-head-space .main-post article .header {
   margin: 0px; }
+
+.amjam-pill-search .search-form {
+  background-color: white;
+  border-radius: 36px;
+  border: 1px solid #c1c1c1;
+  margin-top: 6px; }
+  .amjam-pill-search .search-form .search-field {
+    color: #929292;
+    font-size: .9em;
+    margin-left: 10px;
+    width: 160px;
+    background-color: transparent; }
+  .amjam-pill-search .search-form .search-submit {
+    display: none; }
 
 /* styling for content based colors... */
 #main-header #et-navigation #et-menu > li.amjam-cat-news > a:before {
@@ -435,9 +448,12 @@ ul.ecs-event-list {
   #main-header #header-widget-wrap {
     width: 100%;
     padding-top: 5px;
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    margin-bottom: 10px; }
     #main-header #header-widget-wrap .widget {
       float: right; }
+    #main-header #header-widget-wrap .widget:not(:first-child) {
+      margin-right: 10px; }
   #main-header #header-banner {
     background-color: #b7152c; }
     #main-header #header-banner .tagline-img {
@@ -543,3 +559,15 @@ body.archive article .header.amjam-no-thumb {
 @media only screen and (max-width: 1024px) and (min-width: 720px) {
   .amjambo-video-embed .fluid-width-video-wrapper {
     padding: 33% !important; } }
+@media only screen and (max-width: 425px) {
+  #main-header-wrapper .container {
+    width: 95%; }
+    #main-header-wrapper .container .widget {
+      font-size: .75em;
+      margin-right: 2px !important; }
+    #main-header-wrapper .container .amjam-pill-button .button.amjambo-pill-button {
+      padding-left: 10px;
+      padding-right: 10px; }
+    #main-header-wrapper .container .amjam-pill-search .search-field {
+      margin-left: 4px;
+      width: 140px; } }
