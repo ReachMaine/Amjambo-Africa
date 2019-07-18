@@ -96,6 +96,7 @@
     article.category-makuru,
     article.category-habari,
     article.category-news-in-brief,
+      article.category-novidades-em-breve, // pt
     article.category-maine,
     article.category-africa,
       article.category-afrique,  // fr
@@ -107,7 +108,13 @@
       article.category-196, // kin
       article.category-197, // swa
       article.category-194, // som
-    article.category-news
+      // pt
+      article.category-noticia,
+      article.category-perfis,
+      article.category-maine-pt-pt,
+      article.category-estados-unidos,
+      article.category-africa-pt-pt,
+    article.category-news,
        {
       border-top-color: $amjam-news-color;
     }
@@ -133,6 +140,11 @@
     article.category-restora, // kin
     article.category-migahawa, // swa
     article.category-makhayadaha, // somali
+    //pt
+    article.category-cultura,
+    article.category-artes,
+    article.category-comparacao-cultural,
+    article.category-restaurantes,
      {
       border-top-color:  $amjam-culture-color;
     }
@@ -150,7 +162,13 @@
     article.category-44, //fr
     article.category-114, // kin
     article.category-73, // swa
-    article.category-152 // som
+    article.category-152, // som
+    // pt
+    article.category-opiniao,
+    article.category-cartas-para-o-editor,
+    article.category-colunistas,
+    article.category-visao-do-amjambo,
+
  {
       border-top-color:  $amjam-opinion-color;
     }
@@ -173,6 +191,10 @@
     article.focus-surles-pays, // fr
     article.makuru-arambuye-kubihugu, //kin
     article.habari-kwaurefu-za-nchi,//swa
+    //pt
+      article.category-sobre-a-africa,
+      article.category-a-partir-do-solo,
+      article.category-pais-em-foco,
        {
       border-top-color: $amjam-africa-color;
     }
@@ -231,7 +253,15 @@
   .archive.category-wararka,// somali
   .archive.category-war-saxaafadeed,
   .archive.category-habari, // swa
-  .archive.category-habari-kwa-kifupi
+  .archive.category-habari-kwa-kifupi,
+    //pt
+
+    .archive.category-novidades-em-breve,
+    .archive.category-perfis,
+    .archive.category-maine-pt-pt,
+    .archive.category-estados-unidos,
+    .archive.category-africa-pt-pt,
+
    {
     .posts-blog-feed-module {
       border-top-color: $amjam-news-color;
@@ -252,8 +282,9 @@
     .archive.category-44, //fr
     .archive.category-114, // kin
     .archive.category-73, // swa
-    .archive.category-152 // som
-
+    .archive.category-152, // som
+    // pt
+    .archive.category-214, .archive.category-215, .archive.category-216, .archive.category-217,
   {
    .posts-blog-feed-module {
      border-top-color: $amjam-opinion-color;
@@ -278,6 +309,8 @@
   .archive.category-restora, // kin
   .archive.category-migahawa, // swa
   .archive.category-makhayadaha, // somali
+  // pt
+  .archive.category-209, .archive.category-210, .archive.category-211, .archive.category-226,
   {
    .posts-blog-feed-module {
      border-top-color: $amjam-culture-color;
@@ -301,7 +334,9 @@
     .archive.category-95, // kin
     .archive.category-79, // swa
     //.archive.category-79, // swa
-    .archive.category-24
+    .archive.category-24,
+    // pt
+    .archive.category-205, .archive.category-206, .archive.category-206,
   {
    .posts-blog-feed-module {
      border-top-color: $amjam-africa-color;

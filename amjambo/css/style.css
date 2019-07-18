@@ -108,6 +108,7 @@
 .single-post #main-content article.category-makuru,
 .single-post #main-content article.category-habari,
 .single-post #main-content article.category-news-in-brief,
+.single-post #main-content article.category-novidades-em-breve,
 .single-post #main-content article.category-maine,
 .single-post #main-content article.category-africa,
 .single-post #main-content article.category-afrique,
@@ -119,6 +120,11 @@
 .single-post #main-content article.category-196,
 .single-post #main-content article.category-197,
 .single-post #main-content article.category-194,
+.single-post #main-content article.category-noticia,
+.single-post #main-content article.category-perfis,
+.single-post #main-content article.category-maine-pt-pt,
+.single-post #main-content article.category-estados-unidos,
+.single-post #main-content article.category-africa-pt-pt,
 .single-post #main-content article.category-news {
   border-top-color: #0139a0; }
 .single-post #main-content article.category-culture,
@@ -141,7 +147,11 @@
 .single-post #main-content article.category-restaurants-fr,
 .single-post #main-content article.category-restora,
 .single-post #main-content article.category-migahawa,
-.single-post #main-content article.category-makhayadaha {
+.single-post #main-content article.category-makhayadaha,
+.single-post #main-content article.category-cultura,
+.single-post #main-content article.category-artes,
+.single-post #main-content article.category-comparacao-cultural,
+.single-post #main-content article.category-restaurantes {
   border-top-color: #f47b20; }
 .single-post #main-content article.category-opinion,
 .single-post #main-content article.category-opinion-fr,
@@ -156,7 +166,11 @@
 .single-post #main-content article.category-44,
 .single-post #main-content article.category-114,
 .single-post #main-content article.category-73,
-.single-post #main-content article.category-152 {
+.single-post #main-content article.category-152,
+.single-post #main-content article.category-opiniao,
+.single-post #main-content article.category-cartas-para-o-editor,
+.single-post #main-content article.category-colunistas,
+.single-post #main-content article.category-visao-do-amjambo {
   border-top-color: #3d7515; }
 .single-post #main-content article.category-about-africa,
 .single-post #main-content article.category-country-focus,
@@ -174,7 +188,10 @@
 .single-post #main-content article.category-cuntry-focus,
 .single-post #main-content article.focus-surles-pays,
 .single-post #main-content article.makuru-arambuye-kubihugu,
-.single-post #main-content article.habari-kwaurefu-za-nchi {
+.single-post #main-content article.habari-kwaurefu-za-nchi,
+.single-post #main-content article.category-sobre-a-africa,
+.single-post #main-content article.category-a-partir-do-solo,
+.single-post #main-content article.category-pais-em-foco {
   border-top-color: #6c4ea2; }
 .single-post #main-content article.category-listings-services,
 .single-post #main-content article.category-listes-des-services,
@@ -242,7 +259,12 @@ article.category-clothing-closets,
 .archive.category-wararka .posts-blog-feed-module,
 .archive.category-war-saxaafadeed .posts-blog-feed-module,
 .archive.category-habari .posts-blog-feed-module,
-.archive.category-habari-kwa-kifupi .posts-blog-feed-module {
+.archive.category-habari-kwa-kifupi .posts-blog-feed-module,
+.archive.category-novidades-em-breve .posts-blog-feed-module,
+.archive.category-perfis .posts-blog-feed-module,
+.archive.category-maine-pt-pt .posts-blog-feed-module,
+.archive.category-estados-unidos .posts-blog-feed-module,
+.archive.category-africa-pt-pt .posts-blog-feed-module {
   border-top-color: #0139a0; }
 
 .archive.category-opinion .posts-blog-feed-module,
@@ -259,7 +281,8 @@ article.category-clothing-closets,
 .archive.category-44 .posts-blog-feed-module,
 .archive.category-114 .posts-blog-feed-module,
 .archive.category-73 .posts-blog-feed-module,
-.archive.category-152 .posts-blog-feed-module {
+.archive.category-152 .posts-blog-feed-module,
+.archive.category-214 .posts-blog-feed-module, .archive.category-215 .posts-blog-feed-module, .archive.category-216 .posts-blog-feed-module, .archive.category-217 .posts-blog-feed-module {
   border-top-color: #3d7515; }
 
 .archive.category-culture .posts-blog-feed-module,
@@ -279,7 +302,8 @@ article.category-clothing-closets,
 .archive.category-restaurants-fr .posts-blog-feed-module,
 .archive.category-restora .posts-blog-feed-module,
 .archive.category-migahawa .posts-blog-feed-module,
-.archive.category-makhayadaha .posts-blog-feed-module {
+.archive.category-makhayadaha .posts-blog-feed-module,
+.archive.category-209 .posts-blog-feed-module, .archive.category-210 .posts-blog-feed-module, .archive.category-211 .posts-blog-feed-module, .archive.category-226 .posts-blog-feed-module {
   border-top-color: #f47b20; }
 
 .archive.category-about-africa .posts-blog-feed-module,
@@ -297,7 +321,8 @@ article.category-clothing-closets,
 .archive.category-51 .posts-blog-feed-module,
 .archive.category-95 .posts-blog-feed-module,
 .archive.category-79 .posts-blog-feed-module,
-.archive.category-24 .posts-blog-feed-module {
+.archive.category-24 .posts-blog-feed-module,
+.archive.category-205 .posts-blog-feed-module, .archive.category-206 .posts-blog-feed-module, .archive.category-206 .posts-blog-feed-module {
   border-top-color: #6c4ea2; }
 
 .archive.category-listings-services .posts-blog-feed-module,
