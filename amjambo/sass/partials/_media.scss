@@ -25,6 +25,12 @@
           font-size: 32px; // bump up the font
         }
       }
+      .post-wrap {
+        .wp-caption.alignleft,
+        .wp-caption.alignright {
+            max-width: 60%;
+        }
+      }
     }
   }
 }
