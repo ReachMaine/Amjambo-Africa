@@ -49,14 +49,16 @@
 .amjam-pill-search .search-form {
   background-color: white;
   border-radius: 36px;
-  border: 1px solid #c1c1c1;
-  margin-top: 6px; }
+  border: 1px solid #c1c1c1; }
   .amjam-pill-search .search-form .search-field {
     color: #929292;
     font-size: .9em;
     margin-left: 10px;
     width: 160px;
-    background-color: transparent; }
+    background-color: transparent;
+    height: 46px;
+    padding-top: 0px;
+    padding-bottom: 0px; }
   .amjam-pill-search .search-form .search-submit {
     display: none; }
 
@@ -478,7 +480,7 @@ ul.ecs-event-list {
     #main-header #header-widget-wrap .widget {
       float: right; }
     #main-header #header-widget-wrap .widget:not(:first-child) {
-      margin-right: 10px; }
+      margin-right: 20px; }
   #main-header #header-banner {
     background-color: #b7152c; }
     #main-header #header-banner .tagline-img {
@@ -598,4 +600,5 @@ body.archive article .header.amjam-no-thumb {
       padding-right: 10px; }
     #main-header-wrapper .container .amjam-pill-search .search-field {
       margin-left: 4px;
-      width: 140px; } }
+      width: 140px;
+      height: 41px; } }
