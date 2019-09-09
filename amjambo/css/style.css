@@ -526,6 +526,8 @@ ul.ecs-event-list {
 /* content */
 body.single-post article .post-header {
   padding: 30px 20px; }
+body.single-post article .gallery .gallery-item img {
+  width: 100%; }
 
 body.page article h1.entry-title,
 body.page.et_pb_pagebuilder_layout article h1.entry-title {

@@ -129,7 +129,14 @@ body.single-post {
         //font-size: 32px;
       }
     }
-  }
+    .gallery {
+      .gallery-item {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  } // article
 }
 // single page
 body.page,
