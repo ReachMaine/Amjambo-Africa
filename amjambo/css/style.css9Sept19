@@ -384,19 +384,6 @@ article.category-clothing-closets,
     font-weight: bold;
     font-size: 23px; }
 
-.amjam-wpml-wide .wpml-ls ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center; }
-  .amjam-wpml-wide .wpml-ls ul li {
-    width: 50%; }
-    .amjam-wpml-wide .wpml-ls ul li a {
-      font-size: 17px;
-      padding-left: 2px;
-      padding-right: 2px; }
-    .amjam-wpml-wide .wpml-ls ul li a:nth-child(odd) {
-      margin-left: 3px; }
-
 .wpml-ls-statics-footer.wpml-ls.wpml-ls-legacy-list-horizontal {
   padding-top: 20px;
   margin-bottom: 0px; }
