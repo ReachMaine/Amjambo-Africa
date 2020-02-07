@@ -1,5 +1,6 @@
 <?php /* mods
  	1Apr19 - zig - use post by author for opintion cateogy related posts
+	Feb2020 zig - add updated date if greater than 6 hours from posted datetime.
 */ ?>
 <?php get_header(); ?>
 <div id="main-content">
@@ -36,7 +37,22 @@
 							<div class="post-header">
 								<h1 class="entry-title"><?php the_title(); ?></h1>
 								<div class="post-meta vcard">
-									<p><?php echo extra_display_single_post_meta(); ?></p>
+									<p>
+										<?php /* zig show updated date if greater than 6 hours */
+										$outstr = "";
+										$posted_time = get_the_time('U');
+										$updated_time = get_the_modified_time('U');
+										if ($updated_time > $posted_time + (6 * 60 * 60)  ) { // 6 hours * minutes * seconds = six hours difference-  21600
+												$outstr .= '<span class="mod_date">Updated: ' ;
+												$date_display_format = et_get_option( 'extra_date_format', '' );
+												$updated_date = get_the_modified_time($date_display_format);
+												$outstr .= " ".$updated_date."</span>";
+												$outstr .=  " |  Posted: " ;
+												echo $outstr;
+										} /* end updated date */
+
+										echo extra_display_single_post_meta(); ?>
+									</p>
 								</div>
 							</div>
 							<?php } ?>
