@@ -34,7 +34,7 @@
     }
   }
 }
-// Language switcher on homepage
+// Language switcher on homepage - when in tow columns
 .amjam-wpml-wide .wpml-ls {
   ul {
     display:flex;
@@ -53,9 +53,23 @@
     }
 
   }
-
 }
 
+// spread languate switcher across the row...
+.amjam-wpml-across .wpml-ls {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        margin-left: 2px;
+        margin-right: 2px;
+        a {
+          font-size: 17px;
+        }
+      }
+    }
+}
 // language switcher in footer (horizontal)
 .wpml-ls-statics-footer.wpml-ls.wpml-ls-legacy-list-horizontal { // div
   padding-top: 20px;
