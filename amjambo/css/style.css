@@ -590,6 +590,13 @@ body.archive article .header.amjam-no-thumb {
 /*------------------------------------------------*/
 /*---------------[RESPONSIVE LAYOUTS]-------------*/
 /*------------------------------------------------*/
+@media only screen and (max-width: 980px) {
+  .post-module.et_pb_extra_module.amjam-one-post-list .main-post {
+    width: 100% !important;
+    border-right: 0px;
+    padding-top: 0px; }
+  .post-module.et_pb_extra_module.amjam-one-post-list .posts-list {
+    width: 0px; } }
 /*-------------------[768px]------------------*/
 @media only screen and (min-width: 768px) {
   #main-header .logo {

@@ -2,7 +2,18 @@
 /*------------------------------------------------*/
 /*---------------[RESPONSIVE LAYOUTS]-------------*/
 /*------------------------------------------------*/
-
+@media only screen and (max-width: 980px) {
+  .post-module.et_pb_extra_module.amjam-one-post-list { // post lists with only one post - sizing at tablet & smaller
+    .main-post {
+      width: 100%!important;
+      border-right: 0px;
+      padding-top: 0px;
+    }
+    .posts-list {  // this is empty so no need to have width
+      width: 0px;
+    }
+  }
+}
 /*-------------------[768px]------------------*/
 @media only screen and ( min-width: 768px ) { // bigger than tablet
   #main-header {
