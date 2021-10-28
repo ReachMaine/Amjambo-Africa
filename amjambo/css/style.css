@@ -472,6 +472,9 @@ ul.ecs-event-list {
 /* styling for the Give plugin */
 .single.single-give_forms .give-wrap {
   padding-top: 40px; }
+  .single.single-give_forms .give-wrap .give-recurring-donors-choice label {
+    background-color: #e8ce75;
+    padding: 10px; }
 
 @media (min-width: 769px) {
   [id*=give-form] div#give-sidebar-left {

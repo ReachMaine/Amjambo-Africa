@@ -4,6 +4,12 @@
 .single.single-give_forms {
   .give-wrap {
       padding-top: 40px; // add some padding at top of form....
+      .give-recurring-donors-choice {
+        label {
+          background-color: $amjam-tan;
+          padding: 10px;
+        }
+      }
   }
 }
 
