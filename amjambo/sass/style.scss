@@ -117,8 +117,13 @@
     }
   } // et-navigation
 }
-
-
+// homepage
+.post-module.et_pb_extra_module.amjam-one-post-list { // see media styling for more
+  .posts-list {  // this is empty so no need to have width
+    width: 0px;
+    display: none;
+  }
+}
 /* content */
 // single post
 body.single-post {
