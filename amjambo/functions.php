@@ -32,3 +32,7 @@ add_filter( 'get_the_archive_title', function ($title) {
         }
     return $title;
 });
+
+
+/* added 10Apr23 as work-around for firefox issue with WPML */
+add_filter( 'wp_default_editor', create_function( '', 'return "html";' ) );
