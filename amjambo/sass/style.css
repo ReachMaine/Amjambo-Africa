@@ -1,0 +1,770 @@
+/*
+ Theme Name:     Amjambo Africa
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Extra Child Theme for Stone Park Properties
+ Template:       Extra
+ Version:        1.0.0
+*/
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* basic css stuff */
+/* .reach-responsive-video {
+	position: relative;
+	padding-bottom: 50.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 1em;
+	iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+	}
+} */
+.amjabo-video-embed .fluid-width-video-wrapper {
+  postion: relative;
+}
+
+.amjam-pill-button {
+  border-radius: 36px;
+  background-color: #052962;
+  color: white;
+  border: 1px solid grey;
+  padding: 12px 24px;
+}
+
+.amjam-pill-button:hover {
+  background-color: white;
+  color: #052962;
+}
+
+.amjam-pill-button:visited {
+  color: white;
+  background-color: #052962;
+}
+
+.amjam-hide-extra-head-space .main-post article .header {
+  margin: 0px;
+}
+
+.amjam-pill-search .search-form {
+  background-color: white;
+  border-radius: 36px;
+  border: 1px solid #c1c1c1;
+}
+.amjam-pill-search .search-form .search-field {
+  color: #929292;
+  font-size: 0.9em;
+  margin-left: 10px;
+  width: 160px;
+  background-color: transparent;
+  height: 46px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.amjam-pill-search .search-form .search-submit {
+  display: none;
+}
+
+/* styling for content based colors... */
+#main-header #et-navigation #et-menu > li.amjam-cat-news > a:before {
+  background-color: #0139a0;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-news > a:hover,
+#main-header #et-navigation #et-menu > li.amjam-cat-news.current-menu-item a {
+  color: #0139a0;
+}
+#main-header #et-navigation #et-menu li.amjam-cat-news .sub-menu {
+  border-color: #0139a0;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-opine > a:hover,
+#main-header #et-navigation #et-menu > li.amjam-cat-opine.current-menu-item a {
+  color: #3d7515;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-opine > a:before {
+  background-color: #3d7515;
+}
+#main-header #et-navigation #et-menu li.amjam-cat-opine .sub-menu {
+  border-color: #3d7515;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-culture > a:hover,
+#main-header #et-navigation #et-menu > li.amjam-cat-culture.current-menu-item a {
+  color: #f47b20;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-culture > a:before {
+  background-color: #f47b20;
+}
+#main-header #et-navigation #et-menu li.amjam-cat-culture .sub-menu {
+  border-color: #f47b20;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-africa > a:hover,
+#main-header #et-navigation #et-menu > li.amjam-cat-africa.current-menu-item a {
+  color: #6c4ea2;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-africa > a:before {
+  background-color: #6c4ea2;
+}
+#main-header #et-navigation #et-menu li.amjam-cat-africa .sub-menu {
+  border-color: #6c4ea2;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-calendar > a:hover,
+#main-header #et-navigation #et-menu > li.amjam-cat-calendar.current-menu-item a {
+  color: #0066cc;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-calendar > a:before {
+  background-color: #0066cc;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-listings > a:hover,
+#main-header #et-navigation #et-menu > li.amjam-cat-listings.current-menu-item a {
+  color: #ec487a;
+}
+#main-header #et-navigation #et-menu > li.amjam-cat-listings > a:before {
+  background-color: #ec487a;
+}
+#main-header #et-navigation #et-menu li.amjam-cat-listings .sub-menu {
+  border-color: #ec487a;
+}
+.single-post #main-content article {
+  border-top: 4px solid #e8ce75;
+}
+.single-post #main-content article.category-nouvelles,
+.single-post #main-content article.category-makuru,
+.single-post #main-content article.category-habari,
+.single-post #main-content article.category-news-in-brief,
+.single-post #main-content article.category-novidades-em-breve,
+.single-post #main-content article.category-maine,
+.single-post #main-content article.category-africa,
+.single-post #main-content article.category-afrique,
+.single-post #main-content article.category-amakuru-ya-afurika,
+.single-post #main-content article.category-63,
+.single-post #main-content article.category-148,
+.single-post #main-content article.category-profiles,
+.single-post #main-content article.category-195,
+.single-post #main-content article.category-196,
+.single-post #main-content article.category-197,
+.single-post #main-content article.category-194,
+.single-post #main-content article.category-noticia,
+.single-post #main-content article.category-perfis,
+.single-post #main-content article.category-maine-pt-pt,
+.single-post #main-content article.category-estados-unidos,
+.single-post #main-content article.category-africa-pt-pt,
+.single-post #main-content article.category-news {
+  border-top-color: #0139a0;
+}
+.single-post #main-content article.category-culture,
+.single-post #main-content article.category-culture-fr,
+.single-post #main-content article.category-umuco,
+.single-post #main-content article.category-utamaduni,
+.single-post #main-content article.category-culture-comparison,
+.single-post #main-content article.category-comparaison-culturelle,
+.single-post #main-content article.category-kugereranya-imic,
+.single-post #main-content article.category-ulinganisho-wa-kitamaduni,
+.single-post #main-content article.category-isbarbardhiga-dhaqamada,
+.single-post #main-content article.category-arts,
+.single-post #main-content article.category-arts-musique,
+.single-post #main-content article.category-amashusho-nmuzika,
+.single-post #main-content article.category-farshaxanka,
+.single-post #main-content article.category-art-music-dance-theater,
+.single-post #main-content article.category-sports,
+.single-post #main-content article.category-poetry,
+.single-post #main-content article.category-food-farming-restaurants,
+.single-post #main-content article.category-restaurants-fr,
+.single-post #main-content article.category-restora,
+.single-post #main-content article.category-migahawa,
+.single-post #main-content article.category-makhayadaha,
+.single-post #main-content article.category-cultura,
+.single-post #main-content article.category-artes,
+.single-post #main-content article.category-comparacao-cultural,
+.single-post #main-content article.category-restaurantes {
+  border-top-color: #f47b20;
+}
+.single-post #main-content article.category-opinion,
+.single-post #main-content article.category-opinion-fr,
+.single-post #main-content article.category-ibitekerozo-byabantu,
+.single-post #main-content article.category-maoni-na-mafikiri,
+.single-post #main-content article.category-letters-to-the-editor,
+.single-post #main-content article.category-42,
+.single-post #main-content article.category-116,
+.single-post #main-content article.category-71,
+.single-post #main-content article.category-154,
+.single-post #main-content article.category-amjambo-view,
+.single-post #main-content article.category-44,
+.single-post #main-content article.category-114,
+.single-post #main-content article.category-73,
+.single-post #main-content article.category-152,
+.single-post #main-content article.category-opiniao,
+.single-post #main-content article.category-cartas-para-o-editor,
+.single-post #main-content article.category-colunistas,
+.single-post #main-content article.category-visao-do-amjambo {
+  border-top-color: #3d7515;
+}
+.single-post #main-content article.category-about-africa,
+.single-post #main-content article.category-country-focus,
+.single-post #main-content article.category-51,
+.single-post #main-content article.category-95,
+.single-post #main-content article.category-79,
+.single-post #main-content article.categor-a-propos-de-lafrique,
+.single-post #main-content article.category-amakuru-yafrika,
+.single-post #main-content article.category-kuhusu-afrika,
+.single-post #main-content article.category-from-the-ground,
+.single-post #main-content article.category-a-partir-du-sol,
+.single-post #main-content article.category-amakuru-aturuka-kuri-gakondo,
+.single-post #main-content article.category-kutoka-ardhi,
+.single-post #main-content article.category-from-the-ground-so,
+.single-post #main-content article.category-cuntry-focus,
+.single-post #main-content article.focus-surles-pays,
+.single-post #main-content article.makuru-arambuye-kubihugu,
+.single-post #main-content article.habari-kwaurefu-za-nchi,
+.single-post #main-content article.category-sobre-a-africa,
+.single-post #main-content article.category-a-partir-do-solo,
+.single-post #main-content article.category-pais-em-foco {
+  border-top-color: #6c4ea2;
+}
+.single-post #main-content article.category-listings-services,
+.single-post #main-content article.category-listes-des-services,
+.single-post #main-content article.category-urutonde-na-serivisi,
+.single-post #main-content article.category-liiska-adeegyada,
+.single-post #main-content article.category-huduma-za-orodha article.category-clothing-closets,
+.single-post #main-content article.category-community-associations,
+.single-post #main-content article.category-federal-holidays,
+.single-post #main-content article.category-food-pantries,
+.single-post #main-content article.category-health-care,
+.single-post #main-content article.category-help-wanted,
+.single-post #main-content article.category-housing,
+.single-post #main-content article.category-non-profit-organizations,
+.single-post #main-content article.category-24,
+.single-post #main-content article.category-191,
+.single-post #main-content article.category-190,
+.single-post #main-content article.category-professional-connections-program,
+.single-post #main-content article.category-soup-kitchens,
+.single-post #main-content article.category-volunteer-opportunities {
+  border-top-color: #ec487a;
+}
+.single-post #main-content article.category-listings-services .post-meta,
+.single-post #main-content article.category-listes-des-services .post-meta,
+.single-post #main-content article.category-urutonde-na-serivisi .post-meta,
+.single-post #main-content article.category-liiska-adeegyada .post-meta,
+.single-post #main-content article.category-huduma-za-orodha article.category-clothing-closets .post-meta,
+.single-post #main-content article.category-community-associations .post-meta,
+.single-post #main-content article.category-federal-holidays .post-meta,
+.single-post #main-content article.category-food-pantries .post-meta,
+.single-post #main-content article.category-health-care .post-meta,
+.single-post #main-content article.category-help-wanted .post-meta,
+.single-post #main-content article.category-housing .post-meta,
+.single-post #main-content article.category-non-profit-organizations .post-meta,
+.single-post #main-content article.category-24 .post-meta,
+.single-post #main-content article.category-191 .post-meta,
+.single-post #main-content article.category-190 .post-meta,
+.single-post #main-content article.category-professional-connections-program .post-meta,
+.single-post #main-content article.category-soup-kitchens .post-meta,
+.single-post #main-content article.category-volunteer-opportunities .post-meta {
+  display: none;
+}
+
+.archive.category-news .posts-blog-feed-module,
+.archive.category-news-in-brief .posts-blog-feed-module,
+.archive.category-united-states .posts-blog-feed-module,
+.archive.category-africa .posts-blog-feed-module,
+.archive.category-afrique .posts-blog-feed-module,
+.archive.category-amakuru-ya-afurika .posts-blog-feed-module,
+.archive.category-63 .posts-blog-feed-module,
+.archive.category-148 .posts-blog-feed-module,
+.archive.category-maine .posts-blog-feed-module,
+.archive.category-profiles .posts-blog-feed-module,
+.archive.category-195 .posts-blog-feed-module,
+.archive.category-196 .posts-blog-feed-module,
+.archive.category-197 .posts-blog-feed-module,
+.archive.category-194 .posts-blog-feed-module,
+.archive.category-legislative-update .posts-blog-feed-module,
+.archive.category-nouvelles .posts-blog-feed-module,
+.archive.category-nouvelles-en-breves .posts-blog-feed-module,
+.archive.category-maine-fr .posts-blog-feed-module,
+.archive.category-afrique .posts-blog-feed-module,
+.archive.category-mises-a-jour-legislatives .posts-blog-feed-module,
+.archive.category-makuru .posts-blog-feed-module,
+.archive.category-incamake-yamakuru .posts-blog-feed-module,
+.archive.category-wararka .posts-blog-feed-module,
+.archive.category-war-saxaafadeed .posts-blog-feed-module,
+.archive.category-habari .posts-blog-feed-module,
+.archive.category-habari-kwa-kifupi .posts-blog-feed-module,
+.archive.category-novidades-em-breve .posts-blog-feed-module,
+.archive.category-perfis .posts-blog-feed-module,
+.archive.category-maine-pt-pt .posts-blog-feed-module,
+.archive.category-estados-unidos .posts-blog-feed-module,
+.archive.category-africa-pt-pt .posts-blog-feed-module {
+  border-top-color: #0139a0;
+}
+
+.archive.category-opinion .posts-blog-feed-module,
+.archive.category-opinion-fr .posts-blog-feed-module,
+.archive.category-ibitekerozo-byabantu .posts-blog-feed-module,
+.archive.category-fikradaha .posts-blog-feed-module,
+.archive.category-maoni-na-mafikiri .posts-blog-feed-module,
+.archive.category-letters-to-the-editor .posts-blog-feed-module,
+.archive.category-42 .posts-blog-feed-module,
+.archive.category-116 .posts-blog-feed-module,
+.archive.category-71 .posts-blog-feed-module,
+.archive.category-154 .posts-blog-feed-module,
+.archive.category-amjambo-view .posts-blog-feed-module,
+.archive.category-44 .posts-blog-feed-module,
+.archive.category-114 .posts-blog-feed-module,
+.archive.category-73 .posts-blog-feed-module,
+.archive.category-152 .posts-blog-feed-module,
+.archive.category-214 .posts-blog-feed-module, .archive.category-215 .posts-blog-feed-module, .archive.category-216 .posts-blog-feed-module, .archive.category-217 .posts-blog-feed-module {
+  border-top-color: #3d7515;
+}
+
+.archive.category-culture .posts-blog-feed-module,
+.archive.category-culture-fr .posts-blog-feed-module,
+.archive.category-umuco .posts-blog-feed-module,
+.archive.category-dhaqanka .posts-blog-feed-module,
+.archive.category-utamaduni .posts-blog-feed-module,
+.archive.category-art-music-dance-theater .posts-blog-feed-module,
+.archive.category-culture-comparison .posts-blog-feed-module,
+.archive.category-comparaison-culturelle .posts-blog-feed-module,
+.archive.category-kugereranya-imico .posts-blog-feed-module,
+.archive.category-ulinganisho-wa-kitamaduni .posts-blog-feed-module,
+.archive.category-isbarbardhiga-dhaqamada .posts-blog-feed-module,
+.archive.category-sports .posts-blog-feed-module,
+.archive.category-poetry .posts-blog-feed-module,
+.archive.category-food-farming-restaurants .posts-blog-feed-module,
+.archive.category-restaurants-fr .posts-blog-feed-module,
+.archive.category-restora .posts-blog-feed-module,
+.archive.category-migahawa .posts-blog-feed-module,
+.archive.category-makhayadaha .posts-blog-feed-module,
+.archive.category-209 .posts-blog-feed-module, .archive.category-210 .posts-blog-feed-module, .archive.category-211 .posts-blog-feed-module, .archive.category-226 .posts-blog-feed-module {
+  border-top-color: #f47b20;
+}
+
+.archive.category-about-africa .posts-blog-feed-module,
+.archive.category-11 .posts-blog-feed-module,
+.archive.category-a-propos-de-lafrique .posts-blog-feed-module,
+.archive.category-amakuru-yafrika .posts-blog-feed-module,
+.archive.category-kuhusu-afrika .posts-blog-feed-module,
+.archive.category-from-the-ground .posts-blog-feed-module,
+.archive.category-3 .posts-blog-feed-module,
+.archive.category-a-partir-du-sol .posts-blog-feed-module,
+.archive.category-amakuru-aturuka-kuri-gakondo .posts-blog-feed-module,
+.archive.category-kutoka-ardhi .posts-blog-feed-module,
+.archive.category-from-the-ground-so .posts-blog-feed-module,
+.archive.category-country-focus .posts-blog-feed-module,
+.archive.category-51 .posts-blog-feed-module,
+.archive.category-95 .posts-blog-feed-module,
+.archive.category-79 .posts-blog-feed-module,
+.archive.category-24 .posts-blog-feed-module,
+.archive.category-205 .posts-blog-feed-module, .archive.category-206 .posts-blog-feed-module, .archive.category-206 .posts-blog-feed-module {
+  border-top-color: #6c4ea2;
+}
+
+.archive.category-listings-services .posts-blog-feed-module,
+.archive.category-clothing-closets .posts-blog-feed-module,
+.archive.category-community-associations .posts-blog-feed-module,
+.archive.category-federal-holidays .posts-blog-feed-module,
+.archive.category-food-pantries .posts-blog-feed-module,
+.archive.category-health-care .posts-blog-feed-module,
+.archive.category-help-wanted .posts-blog-feed-module,
+.archive.category-housing .posts-blog-feed-module,
+.archive.category-non-profit-organizations .posts-blog-feed-module,
+.archive.category-189 .posts-blog-feed-module,
+.archive.category-191 .posts-blog-feed-module,
+.archive.category-190 .posts-blog-feed-module,
+.archive.category-professional-connections-program .posts-blog-feed-module,
+.archive.category-soup-kitchens .posts-blog-feed-module,
+.archive.category-volunteer-opportunities .posts-blog-feed-module {
+  border-top-color: #ec487a;
+}
+.archive.category-listings-services .posts-blog-feed-module article .post-meta,
+.archive.category-clothing-closets .posts-blog-feed-module article .post-meta,
+.archive.category-community-associations .posts-blog-feed-module article .post-meta,
+.archive.category-federal-holidays .posts-blog-feed-module article .post-meta,
+.archive.category-food-pantries .posts-blog-feed-module article .post-meta,
+.archive.category-health-care .posts-blog-feed-module article .post-meta,
+.archive.category-help-wanted .posts-blog-feed-module article .post-meta,
+.archive.category-housing .posts-blog-feed-module article .post-meta,
+.archive.category-non-profit-organizations .posts-blog-feed-module article .post-meta,
+.archive.category-189 .posts-blog-feed-module article .post-meta,
+.archive.category-191 .posts-blog-feed-module article .post-meta,
+.archive.category-190 .posts-blog-feed-module article .post-meta,
+.archive.category-professional-connections-program .posts-blog-feed-module article .post-meta,
+.archive.category-soup-kitchens .posts-blog-feed-module article .post-meta,
+.archive.category-volunteer-opportunities .posts-blog-feed-module article .post-meta {
+  display: none;
+}
+
+.single-tribe_events #main-content article {
+  border-top: 4px solid #0066cc;
+}
+
+/* *********** styling for wpml *********** */
+.wpml-ls {
+  width: 100%;
+}
+.wpml-ls ul li.wpml-ls-item {
+  text-align: center;
+}
+.wpml-ls ul li.wpml-ls-item a {
+  padding: 10px 20px;
+}
+.wpml-ls ul li.wpml-ls-item a:visited {
+  color: inherit;
+}
+.wpml-ls ul li.wpml-ls-item a:hover {
+  color: white;
+}
+
+.wpml-ls-statics-shortcode_actions.wpml-ls ul li {
+  margin-bottom: 10px;
+}
+.wpml-ls-statics-shortcode_actions.wpml-ls ul li a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Vollkorn", Georgia, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.amjam-wpml-wide .wpml-ls ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.amjam-wpml-wide .wpml-ls ul li {
+  width: 50%;
+}
+.amjam-wpml-wide .wpml-ls ul li a {
+  font-size: 17px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.amjam-wpml-wide .wpml-ls ul li a:nth-child(odd) {
+  margin-left: 3px;
+}
+
+.amjam-wpml-across .wpml-ls ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.amjam-wpml-across .wpml-ls ul li {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.amjam-wpml-across .wpml-ls ul li a {
+  font-size: 17px;
+}
+
+.wpml-ls-statics-footer.wpml-ls.wpml-ls-legacy-list-horizontal {
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+.wpml-ls-statics-footer.wpml-ls.wpml-ls-legacy-list-horizontal ul li.wpml-ls-item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+/* styling for events & events shortcode */
+ul.ecs-event-list {
+  list-style-type: none;
+  padding-right: 15px;
+}
+ul.ecs-event-list li.ecs-event .entry-title a {
+  font-size: 18px;
+}
+ul.ecs-event-list li.ecs-event .entry-title a:visited {
+  color: #000;
+}
+ul.ecs-event-list li.ecs-event:not(:last-child) .entry-title {
+  border-bottom: 3px solid #0066cc;
+}
+
+.post-type-archive-tribe_events h1.entry-title,
+.single-tribe_events h1.entry-title {
+  padding-bottom: 0px;
+}
+
+.tribe-events-list .tribe-events-loop .tribe-events-list-separator-month:after {
+  border-color: #0066cc;
+}
+.tribe-events-list .tribe-events-loop .type-tribe_events,
+.tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured {
+  border: 1px solid #0066cc;
+  background-color: white !important;
+  padding: 1em 1.5rem 1rem 1.5em;
+}
+.tribe-events-list .tribe-events-loop .type-tribe_events .tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title a {
+  color: #0066cc !important;
+}
+.tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title:before {
+  content: "*";
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  color: #0066cc;
+}
+.tribe-events-list .tribe-events-loop .type-tribe_events.tribe-event-featured .tribe-events-list-event-title {
+  margin-top: 0px;
+}
+.tribe-events-month .tribe-events-month-event-title a {
+  color: #000;
+}
+
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured {
+  background-color: #cde6ff;
+}
+
+.post-content .tribe-events-nav-pagination a {
+  color: #0066cc;
+}
+
+/* styling for gravity forms */
+.gform_wrapper.amjam-white-fields_wrapper form.gf_simple_horizontal .gform_body {
+  width: 80%;
+  max-width: 80%;
+  display: inline-block;
+}
+.gform_wrapper.amjam-white-fields_wrapper form.gf_simple_horizontal .gform_body .gfield input {
+  background-color: white;
+}
+.gform_wrapper.amjam-white-fields_wrapper form.gf_simple_horizontal .gform_footer.top_label {
+  top: 4px;
+  display: inline-block;
+}
+.gform_wrapper.amjam-white-fields_wrapper form.gf_simple_horizontal .gform_footer.top_label input {
+  background-color: white;
+}
+
+/* styling for the Give plugin */
+.single.single-give_forms .give-wrap {
+  padding-top: 40px;
+}
+.single.single-give_forms .give-wrap .give-recurring-donors-choice label {
+  background-color: #e8ce75;
+  padding: 10px;
+}
+
+@media (min-width: 769px) {
+  [id*=give-form] div#give-sidebar-left {
+    width: 22%;
+  }
+  [id*=give-form] div.summary {
+    width: 74%;
+  }
+}
+@media (max-width: 768px) {
+  [id*=give-form] div#give-sidebar-left {
+    max-width: 200px;
+    margin: auto;
+  }
+}
+/* end styling for the Give plugin */
+/**** header stuff... ***/
+#top-header {
+  background-image: url(./images/tag-line.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  padding: 15px 0;
+}
+
+#main-header {
+  background-image: url(./images/header-bkg-slice.jpg);
+  background-position: top center;
+  background-size: contain;
+}
+#main-header #header-widget-wrap {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+#main-header #header-widget-wrap .widget {
+  float: right;
+}
+#main-header #header-widget-wrap .widget:not(:first-child) {
+  margin-right: 20px;
+}
+#main-header #header-banner {
+  background-color: #b7152c;
+}
+#main-header #header-banner .tagline-img {
+  width: 20%;
+  margin-top: -40px;
+}
+#main-header #header-banner .tagline {
+  width: 78%;
+  display: inline-block;
+  padding-top: 10px;
+}
+#main-header .amjam-menu-wrapper {
+  background-color: white;
+}
+#main-header #et-navigation {
+  background-color: white;
+  width: 100%;
+}
+#main-header #et-navigation ul#et-menu {
+  width: 100%;
+  justify-content: space-between;
+}
+#main-header #et-navigation ul#et-menu > li > a:before {
+  top: 38px;
+}
+#main-header #et-navigation ul#et-menu > li > a {
+  padding-top: 24px;
+  padding-bottom: 30px;
+}
+#main-header #et-navigation ul#et-menu li.menu-item-has-children > a:hover:after,
+#main-header #et-navigation ul#et-menu li.menu-item-has-children > a:after {
+  color: black;
+  font-weight: bold;
+}
+#main-header #et-navigation ul#et-menu ul.sub-menu {
+  background-color: #e8ce75;
+}
+#main-header #et-navigation ul#et-menu ul.sub-menu li.menu-item {
+  padding: 0 20px;
+}
+#main-header #et-navigation ul#et-menu ul.sub-menu li.menu-item a {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 5px 0;
+}
+#main-header #et-navigation #et-mobile-navigation .show-menu-button {
+  margin-left: 18px;
+}
+#main-header #et-navigation .search-form .screen-reader-text, #main-header #et-navigation .search-form .search-submit {
+  display: none;
+}
+#main-header #et-navigation .search-form .search-field {
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.post-module.et_pb_extra_module.amjam-one-post-list .posts-list {
+  width: 0px;
+  display: none;
+}
+
+/* content */
+body.single-post article .post-header {
+  padding: 30px 20px;
+}
+body.single-post article .gallery .gallery-item img {
+  width: 100%;
+}
+
+body.page article h1.entry-title,
+body.page.et_pb_pagebuilder_layout article h1.entry-title {
+  font-size: 42px;
+  padding-bottom: 20px !important;
+}
+
+.page .post-wrap {
+  padding-top: 0px;
+}
+
+body.archive .amjam-archive-description {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+body.archive article .header.amjam-no-thumb {
+  display: none;
+  width: 0px;
+}
+
+.posts-blog-feed-module.standard .hentry .header.amjam-no-thumb {
+  width: 0px;
+  background-color: yellow;
+}
+
+.et_pb_widget .widgettitle {
+  background-color: black;
+}
+
+.et_pb_widget.amjam-no-widget-title .widgettitle {
+  display: none;
+  padding: 0px;
+}
+
+.et_pb_widget.amjam-ad-widget {
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+}
+.et_pb_widget.amjam-ad-widget .textwidget {
+  padding: 0px;
+}
+/* *** keep this at the end *** */
+/* **** media **** */
+/*------------------------------------------------*/
+/*---------------[RESPONSIVE LAYOUTS]-------------*/
+/*------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+  .post-module.et_pb_extra_module.amjam-one-post-list .main-post {
+    width: 100% !important;
+    border-right: 0px;
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .reverse-specialsec .et_pb_row,
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+}
+/*-------------------[768px]------------------*/
+@media only screen and (min-width: 768px) {
+  #main-header .logo {
+    margin-bottom: 0px !important;
+    margin-top: 30px !important;
+  }
+  #main-header #main-header #header-banner .tagline-img {
+    display: inline-block;
+  }
+  body.single-post article .post-header .entry-title {
+    font-size: 32px;
+  }
+  body.single-post article .post-wrap .wp-caption.alignleft,
+  body.single-post article .post-wrap .wp-caption.alignright {
+    max-width: 60%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .centered .logo {
+    margin-bottom: 10px;
+  }
+  #main-header #header-banner .tagline-img {
+    display: none;
+  }
+  #main-header #header-banner .tagline {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 720px) {
+  .amjambo-video-embed .fluid-width-video-wrapper {
+    padding: 33% !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #main-header-wrapper .container {
+    width: 95%;
+  }
+  #main-header-wrapper .container .widget {
+    font-size: 0.75em;
+    margin-right: 2px !important;
+  }
+  #main-header-wrapper .container .amjam-pill-button .button.amjambo-pill-button {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #main-header-wrapper .container .amjam-pill-search .search-field {
+    margin-left: 4px;
+    width: 140px;
+    height: 41px;
+  }
+}/*# sourceMappingURL=style.css.map */

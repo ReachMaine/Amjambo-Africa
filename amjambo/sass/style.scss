@@ -29,9 +29,9 @@
 }
 // set header background-image
 #main-header {
-    background-image: url(./images/header-bkg.jpg);
+    background-image: url(./images/header-bkg-slice.jpg);
     background-position: top center;
-    background-size: cover;
+    background-size: contain;
     #header-widget-wrap { // place for donate today button
       width: 100%;
       padding-top: 5px;
