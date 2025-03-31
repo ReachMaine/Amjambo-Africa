@@ -1,7 +1,3 @@
-<?php /* mods
- 	1Apr19 - zig - use post by author for opintion cateogy related posts
-	Feb2020 zig - add updated date if greater than 6 hours from posted datetime.
-*/ ?>
 <?php get_header(); ?>
 <div id="main-content">
 	<?php
@@ -37,22 +33,7 @@
 							<div class="post-header">
 								<h1 class="entry-title"><?php the_title(); ?></h1>
 								<div class="post-meta vcard">
-									<p>
-										<?php /* zig show updated date if greater than 6 hours */
-										$outstr = "";
-										$posted_time = get_the_time('U');
-										$updated_time = get_the_modified_time('U');
-										if ($updated_time > $posted_time + (6 * 60 * 60)  ) { // 6 hours * minutes * seconds = six hours difference-  21600
-												$outstr .= '<span class="mod_date">Updated: ' ;
-												$date_display_format = et_get_option( 'extra_date_format', '' );
-												$updated_date = get_the_modified_time($date_display_format);
-												$outstr .= " ".$updated_date."</span>";
-												$outstr .=  " |  Posted: " ;
-												echo $outstr;
-										} /* end updated date */
-
-										echo extra_display_single_post_meta(); ?>
-									</p>
+									<p><?php echo extra_display_single_post_meta(); ?></p>
 								</div>
 							</div>
 							<?php } ?>
@@ -66,11 +47,7 @@
 								?>
 							</div>
 							<?php } ?>
-							<div class="post-sticky-left">
-								<div class="social-icons ed-social-share-icons amjambo-sshares hide-mobile">
-									<?php extra_post_share_links(); ?>
-								</div>
-							</div>
+
 							<?php $post_above_ad = extra_display_ad( 'post_above', false ); ?>
 							<?php if ( !empty( $post_above_ad ) ) { ?>
 							<div class="et_pb_extra_row etad post_above">
@@ -133,7 +110,7 @@
 							</div>
 							<?php } ?>
 							<div class="post-footer">
-								<div class="social-icons ed-social-share-icons hide-desktop">
+								<div class="social-icons ed-social-share-icons">
 									<p class="share-title"><?php esc_html_e( 'Share:', 'extra' ); ?></p>
 									<?php extra_post_share_links(); ?>
 								</div>
@@ -192,12 +169,8 @@
 						<?php } ?>
 
 						<?php
+						$related_posts = extra_get_post_related_posts();
 
-						if ( in_category(array('opinion','columnists','amjambo-view')) && extra_is_post_author_box() ) { // zig
-							$related_posts = amjam_get_related_post_by_author();
-						} else {
-							$related_posts = extra_get_post_related_posts();
-						}
 						if ( $related_posts && extra_is_post_related_posts() ) {  ?>
 						<div class="et_extra_other_module related-posts">
 							<div class="related-posts-header">

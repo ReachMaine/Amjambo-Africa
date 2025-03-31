@@ -23,6 +23,9 @@
 }
 /*-------------------[768px]------------------*/
 @media only screen and ( min-width: 768px ) { // bigger than tablet
+  .hide-desktop {
+    display: none!important;
+  }
   #main-header {
     .logo {
       margin-bottom: 0px!important;
@@ -56,7 +59,9 @@
 
 @media only screen and ( max-width: 767px ) { // tablet and smaller
 
-
+.hide-mobile {
+  display: none!important;
+}
   .centered .logo {
     //height: auto;
     margin-bottom: 10px;

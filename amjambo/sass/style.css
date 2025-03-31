@@ -537,30 +537,23 @@ ul.ecs-event-list li.ecs-event:not(:last-child) .entry-title {
   background-color: white;
 }
 
-/* styling for the Give plugin */
-.single.single-give_forms .give-wrap {
-  padding-top: 40px;
+/* ----------- Post styling ---------------------------------- */
+.post-sticky-left {
+  position: sticky;
+  top: 10px;
+  padding-left: 5px;
+  height: 0px;
 }
-.single.single-give_forms .give-wrap .give-recurring-donors-choice label {
-  background-color: #e8ce75;
-  padding: 10px;
+.post-sticky-left .social-icons.amjambo-sshares {
+  display: flex;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.post-sticky-left .social-icons.amjambo-sshares a {
+  margin-bottom: 20px;
 }
 
-@media (min-width: 769px) {
-  [id*=give-form] div#give-sidebar-left {
-    width: 22%;
-  }
-  [id*=give-form] div.summary {
-    width: 74%;
-  }
-}
-@media (max-width: 768px) {
-  [id*=give-form] div#give-sidebar-left {
-    max-width: 200px;
-    margin: auto;
-  }
-}
-/* end styling for the Give plugin */
 /**** header stuff... ***/
 #top-header {
   background-image: url(./images/tag-line.png);
@@ -719,6 +712,9 @@ body.archive article .header.amjam-no-thumb {
 }
 /*-------------------[768px]------------------*/
 @media only screen and (min-width: 768px) {
+  .hide-desktop {
+    display: none !important;
+  }
   #main-header .logo {
     margin-bottom: 0px !important;
     margin-top: 30px !important;
@@ -735,6 +731,9 @@ body.archive article .header.amjam-no-thumb {
   }
 }
 @media only screen and (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
   .centered .logo {
     margin-bottom: 10px;
   }
