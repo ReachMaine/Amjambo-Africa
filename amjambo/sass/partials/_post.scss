@@ -1,9 +1,10 @@
 /* ----------- Post styling ---------------------------------- */
 .post-sticky-left {
     position: sticky;
-    top: 10px;
-    padding-left: 5px;
+    top: 40%;
+    padding-left: 6px;
     height: 0px;
+    z-index: 3;
     .social-icons.amjambo-sshares {
         display: flex;
         flex-direction: column;
@@ -11,5 +12,26 @@
         a {
             margin-bottom: 20px;
         }
+    }
+}
+
+.social-icons.ed-social-share-icons {
+    .et-extra-icon {
+        border-radius: 50%;
+        background-color: grey;
+    }
+    .et-extra-icon-facebook {
+        background: $facebook-blue!important;
+    }
+    .et-extra-icon-twitter {
+        background-color: black!important;
+       
+    }
+    .et-extra-icon-twitter:before {
+        content: "\e61b";
+        font-family: "Font Awesome 6 Brands" !important;
+    }
+    .et-extra-icon-twitterX:hover {
+        background-color: black!important;
     }
 }

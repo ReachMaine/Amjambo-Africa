@@ -540,9 +540,10 @@ ul.ecs-event-list li.ecs-event:not(:last-child) .entry-title {
 /* ----------- Post styling ---------------------------------- */
 .post-sticky-left {
   position: sticky;
-  top: 10px;
-  padding-left: 5px;
+  top: 40%;
+  padding-left: 6px;
   height: 0px;
+  z-index: 3;
 }
 .post-sticky-left .social-icons.amjambo-sshares {
   display: flex;
@@ -552,6 +553,24 @@ ul.ecs-event-list li.ecs-event:not(:last-child) .entry-title {
 }
 .post-sticky-left .social-icons.amjambo-sshares a {
   margin-bottom: 20px;
+}
+
+.social-icons.ed-social-share-icons .et-extra-icon {
+  border-radius: 50%;
+  background-color: grey;
+}
+.social-icons.ed-social-share-icons .et-extra-icon-facebook {
+  background: #39579a !important;
+}
+.social-icons.ed-social-share-icons .et-extra-icon-twitter {
+  background-color: black !important;
+}
+.social-icons.ed-social-share-icons .et-extra-icon-twitter:before {
+  content: "\e61b";
+  font-family: "Font Awesome 6 Brands" !important;
+}
+.social-icons.ed-social-share-icons .et-extra-icon-twitterX:hover {
+  background-color: black !important;
 }
 
 /**** header stuff... ***/
