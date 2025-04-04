@@ -16,6 +16,12 @@
 }
 
 .social-icons.ed-social-share-icons {
+    a[data-network-name="basic_print"] {
+        order: 5;
+    }
+    a[data-network-name="basic_email"] {
+        order: 4;
+    }
     .et-extra-icon {
         border-radius: 50%;
         background-color: grey;
@@ -31,7 +37,22 @@
         content: "\e61b";
         font-family: "Font Awesome 6 Brands" !important;
     }
+    .et-extra-icon-bluesky {
+        background-color: $bluesky-blue;
+    }
+    .et-extra-icon-bluesky:before {
+        content: "\e671";
+        font-family: "Font Awesome 6 Brands" !important;      
+    }
+    .et-extra-icon-whatsapp {
+        background-color: $whatsapp-green;
+    }
+    .et-extra-icon-whatsapp:before {
+        content: "\f232";
+        font-family: "Font Awesome 6 Brands" !important;      
+    }
     .et-extra-icon-twitterX:hover {
         background-color: black!important;
     }
+
 }

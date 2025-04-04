@@ -33,32 +33,3 @@ if ( ! is_admin() &&  $query->is_main_query() && $query->is_category()  ) {
     }
 }
 add_action( 'pre_get_posts', 'reach_modify_query_order' );
-
-
-add_action('after_setup_theme', 'reach_social_shares_more');
-function reach_social_shares_more() {
-
-  class ET_BlueSky_Social_Share extends ET_Social_Share {
-
-    function init() {
-      $this->name = esc_html__( 'BlueSky', 'extra' );
-      $this->slug = 'bluesky';
-      $this->share_url = 'https://bsky.app/intent/compose?text=%1$s&t=%2$s';
-    }
-
-  }
-  new ET_BlueSky_Social_Share;
-
-  class ET_Whatsapp_Social_Share extends ET_Social_Share {
-
-    function init() {
-      $this->name = esc_html__( 'WhatsApp', 'extra' );
-      $this->slug = 'whatsapp';
-      $this->share_url = 'https://api.whatsapp.com/send?text=%1$s&t=%2$s';
-
-    }
-
-  }
-  new ET_Whatsapp_Social_Share;
-}// after theme setup
-

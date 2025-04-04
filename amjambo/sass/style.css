@@ -555,6 +555,12 @@ ul.ecs-event-list li.ecs-event:not(:last-child) .entry-title {
   margin-bottom: 20px;
 }
 
+.social-icons.ed-social-share-icons a[data-network-name=basic_print] {
+  order: 5;
+}
+.social-icons.ed-social-share-icons a[data-network-name=basic_email] {
+  order: 4;
+}
 .social-icons.ed-social-share-icons .et-extra-icon {
   border-radius: 50%;
   background-color: grey;
@@ -567,6 +573,20 @@ ul.ecs-event-list li.ecs-event:not(:last-child) .entry-title {
 }
 .social-icons.ed-social-share-icons .et-extra-icon-twitter:before {
   content: "\e61b";
+  font-family: "Font Awesome 6 Brands" !important;
+}
+.social-icons.ed-social-share-icons .et-extra-icon-bluesky {
+  background-color: #1185fe;
+}
+.social-icons.ed-social-share-icons .et-extra-icon-bluesky:before {
+  content: "\e671";
+  font-family: "Font Awesome 6 Brands" !important;
+}
+.social-icons.ed-social-share-icons .et-extra-icon-whatsapp {
+  background-color: #25d366;
+}
+.social-icons.ed-social-share-icons .et-extra-icon-whatsapp:before {
+  content: "\f232";
   font-family: "Font Awesome 6 Brands" !important;
 }
 .social-icons.ed-social-share-icons .et-extra-icon-twitterX:hover {
