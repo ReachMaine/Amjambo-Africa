@@ -83,4 +83,15 @@
 		}
 	}
 }
-
+.et_pb_module.et_pb_menu.rmm-menu-full {
+	.et_pb_menu__menu {
+		width: 100%;
+		.et-menu-nav {
+			width:100%;
+			.et-menu.nav {
+				width: 100%;
+				justify-content: space-around;
+			}
+		}
+	}
+}

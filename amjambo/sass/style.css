@@ -83,6 +83,17 @@
   height: auto;
 }
 
+.et_pb_module.et_pb_menu.rmm-menu-full .et_pb_menu__menu {
+  width: 100%;
+}
+.et_pb_module.et_pb_menu.rmm-menu-full .et_pb_menu__menu .et-menu-nav {
+  width: 100%;
+}
+.et_pb_module.et_pb_menu.rmm-menu-full .et_pb_menu__menu .et-menu-nav .et-menu.nav {
+  width: 100%;
+  justify-content: space-around;
+}
+
 /* styling for content based colors... */
 #main-header #et-navigation #et-menu > li.amjam-cat-news > a:before {
   background-color: #0139a0;
