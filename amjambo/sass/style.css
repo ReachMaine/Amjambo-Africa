@@ -70,6 +70,19 @@
   display: none;
 }
 
+.amjam-sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.et_pb_widget.widget_et_recent_entries.amjam-recents-img3 ul.widget_list li .widget_list_thumbnail {
+  width: 33%;
+  min-width: 33%;
+  background-color: white;
+  height: auto;
+}
+
 /* styling for content based colors... */
 #main-header #et-navigation #et-menu > li.amjam-cat-news > a:before {
   background-color: #0139a0;

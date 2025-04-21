@@ -40,7 +40,7 @@
 		margin: 0px;
 	}
 }
-
+// widgets classes ...
 .amjam-pill-search { // widget class
 
 	.search-form {
@@ -64,3 +64,23 @@
 		} // submit
 	} // form
 }
+
+
+.amjam-sticky-top {
+	position: sticky;
+	top: 0;
+	z-index: 3; // jic
+} 
+.et_pb_widget.widget_et_recent_entries.amjam-recents-img3 {
+	ul.widget_list {
+		li {
+			.widget_list_thumbnail {
+				width: 33%;
+				min-width:33%;
+				background-color: white;
+				height: auto;
+			}
+		}
+	}
+}
+
