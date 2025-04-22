@@ -68,7 +68,7 @@
 
 .amjam-sticky-top {
 	position: sticky;
-	top: 0;
+	top: 64px; // height of sticky menu
 	z-index: 3; // jic
 } 
 .et_pb_widget.widget_et_recent_entries.amjam-recents-img3 {
@@ -95,3 +95,28 @@
 		}
 	}
 }
+.et_pb_module.et_pb_menu.rmm-menu-mobile-icon-left {
+	.et_pb_menu__wrap {
+		justify-content: flex-start!important;
+		.et_mobile_nav_menu {
+			.et_mobile_menu {
+				max-width:400px;
+				padding: 3%;
+				li {
+					margin-bottom: 0px;
+					a {
+						border-bottom: 1px solid rgb(255 255 255 / 37%);
+					}
+				}
+				.mobile-toggle {
+					i {
+						font-size: 20px;
+						color: white;
+					}
+				}
+			}
+		}
+	}
+	
+}
+

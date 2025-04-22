@@ -72,7 +72,7 @@
 
 .amjam-sticky-top {
   position: sticky;
-  top: 0;
+  top: 64px;
   z-index: 3;
 }
 
@@ -92,6 +92,24 @@
 .et_pb_module.et_pb_menu.rmm-menu-full .et_pb_menu__menu .et-menu-nav .et-menu.nav {
   width: 100%;
   justify-content: space-around;
+}
+
+.et_pb_module.et_pb_menu.rmm-menu-mobile-icon-left .et_pb_menu__wrap {
+  justify-content: flex-start !important;
+}
+.et_pb_module.et_pb_menu.rmm-menu-mobile-icon-left .et_pb_menu__wrap .et_mobile_nav_menu .et_mobile_menu {
+  max-width: 400px;
+  padding: 3%;
+}
+.et_pb_module.et_pb_menu.rmm-menu-mobile-icon-left .et_pb_menu__wrap .et_mobile_nav_menu .et_mobile_menu li {
+  margin-bottom: 0px;
+}
+.et_pb_module.et_pb_menu.rmm-menu-mobile-icon-left .et_pb_menu__wrap .et_mobile_nav_menu .et_mobile_menu li a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.37);
+}
+.et_pb_module.et_pb_menu.rmm-menu-mobile-icon-left .et_pb_menu__wrap .et_mobile_nav_menu .et_mobile_menu .mobile-toggle i {
+  font-size: 20px;
+  color: white;
 }
 
 /* styling for content based colors... */
