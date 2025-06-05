@@ -133,10 +133,10 @@
 							</div>
 							<?php } ?>
 							<div class="post-footer">
-								<div class="social-icons ed-social-share-icons hide-desktop">
+								<?php /* zig X-out Jun 26 no longer needed inline <div class="social-icons ed-social-share-icons hide-desktop">
 									<p class="share-title"><?php esc_html_e( 'Share:', 'extra' ); ?></p>
 									<?php extra_post_share_links(); ?>
-								</div>
+								</div> */ ?>
 								<?php if ( extra_is_post_rating_enabled() ) { ?>
 								<div class="rating-stars">
 									<?php extra_rating_stars_display(); ?>
