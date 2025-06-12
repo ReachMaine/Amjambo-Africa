@@ -65,7 +65,11 @@
 	} // form
 }
 
-
+// needed for menu in non-stuck position to NOT flow under the content
+header.et-l.et-l--header { // from:  https://www.peeayecreative.com/how-to-fix-the-hidden-divi-menu/
+    z-index: 99999;
+    position: relative;
+}
 .amjam-sticky-top {
 	position: sticky;
 	top: 64px; // height of sticky menu
