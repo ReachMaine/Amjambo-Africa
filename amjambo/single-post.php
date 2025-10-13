@@ -234,10 +234,10 @@
 				do_action( 'et_after_post' );
 				?>
 
-				<?php
+				<?php /* remove comments - JIC 
 				if ( ( comments_open() || get_comments_number() ) && 'on' == et_get_option( 'extra_show_postcomments', 'on' ) ) {
 					comments_template( '', true );
-				}
+				}*/
 				?>
 			</div><!-- /.et_pb_extra_column.et_pb_extra_column_main -->
 

@@ -640,6 +640,10 @@ ul.ecs-event-list li.ecs-event:not(:last-child) .entry-title {
   background-color: black !important;
 }
 
+article.post .post-footer {
+  padding-top: 0px;
+}
+
 /**** header stuff... ***/
 #top-header {
   background-image: url(./images/tag-line.png);
