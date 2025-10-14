@@ -14,6 +14,15 @@
         height: 100%;
 	}
 } */
+body {   
+	font-family: 'myriad-pro',sans-serif;
+}
+// also need to add to extra -> theme options -> custom css (so we dont need the "important" flag here.)
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-family: 'minion-pro-condensed', Georgia, "Times New Roman", serif;
+}
+
+
 .amjabo-video-embed {
 	.fluid-width-video-wrapper {
 		postion: relative;
