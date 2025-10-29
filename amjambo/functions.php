@@ -21,6 +21,7 @@ require_once(get_stylesheet_directory().'/custom/reach_CTAs.php');
 require_once(get_stylesheet_directory().'/custom/language.php');
 require_once(get_stylesheet_directory().'/custom/amjambo.php');
 require_once(get_stylesheet_directory().'/custom/wpml.php');
+require_once(get_stylesheet_directory().'/custom/allow-iframes.php');
 // dont display the Category:  in archives
 add_filter( 'get_the_archive_title', function ($title) {
     if ( is_category() ) {
