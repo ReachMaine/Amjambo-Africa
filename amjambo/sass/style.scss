@@ -11,11 +11,12 @@
 ------------------------------------------------------- */
 @import "partials/colors";
 @import "partials/basic";
-@import "partials/category_colors";
+//@import "partials/category_colors"; no longer want colors per category
 @import "partials/wpml";
 @import "partials/events";
 @import "partials/gforms";
 @import "partials/post";
+@import "partials/rmm_menu";
 // no long using give plug @import "partials/give";
 
 

@@ -1,0 +1,105 @@
+// dont swith to hamberger menu at mobile (used in footer, usually)
+@media (max-width: 980px) {  // mobile & tablet.
+  .et_pb_module.et_pb_menu.rmm-menu-nohamburger {
+    .et_pb_menu__menu {
+      display: flex!important;
+    }
+    .et_mobile_nav_menu {
+      display: none!important;
+    }
+  }
+}
+
+/* always show hamburger Menu */ 
+@media (min-width:981px) { // bigger than mobile-tablet
+.et_pb_module.et_pb_menu.rmm-hamberg {
+    .et_pb_menu__menu {
+      display: none;
+    }
+    .et_mobile_nav_menu {
+      display: flex;
+    }
+
+ }
+}
+
+// style / hight an item on the menu
+// add class to menu item.  
+.et_pb_module.et_pb_menu {
+  li.rmm-menu-item-pill {
+      background-color: black;
+
+      margin-top: 0px!important;
+      padding-top: 8px!important; 
+      border-radius: 20px;
+    a {      
+        color: white!important;
+    }
+  }
+}
+
+
+.et_pb_module.et_pb_menu.rmm-menu-icon-center {
+    .et_pb_menu_inner_container {
+        height: 100%;
+        .et_mobile_nav_menu {
+            align-items: center;
+        }
+    }
+}
+
+// stack menu 
+  .et_pb_module.et_pb_menu.rmm-menu-vertical {
+    .et_pb_menu__menu {
+      nav.et-menu-nav {
+        ul.et-menu {
+          flex-direction: column;
+        }
+      }
+    }
+ }
+@media only screen and ( max-width: 767px ) {
+  .et_pb_module.et_pb_menu.rmm-menu-vertical {
+    .et_pb_menu__wrap {
+      justify-content: center;
+    }
+  }
+ }
+
+ .et_pb_module.et_pb_menu.rmm-menu-full {
+	.et_pb_menu__menu {
+		width: 100%;
+		.et-menu-nav {
+			width:100%;
+			.et-menu.nav {
+				width: 100%;
+				justify-content: space-around;
+			}
+		}
+	}
+}
+.et_pb_module.et_pb_menu.rmm-menu-mobile-icon-left {
+	.et_pb_menu__wrap {
+		justify-content: flex-start!important;
+		.et_mobile_nav_menu {
+			.et_mobile_menu {
+				max-width:400px;
+				padding: 3%;
+				li {
+					margin-bottom: 0px;
+					a {
+						border-bottom: 1px solid rgb(255 255 255 / 37%);
+					}
+				}
+				.mobile-toggle {
+					i {
+						font-size: 20px;
+						color: white;
+					}
+				}
+			}
+		}
+	}
+	
+}
+

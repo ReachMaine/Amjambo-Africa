@@ -1,22 +1,40 @@
 /* styling for gravity forms */
 
 .gform_wrapper.amjam-white-fields_wrapper {
-  form.gf_simple_horizontal {
+  .gform_heading {
+    .gform_title {
+      color: white;
+      font-weight: normal;
+      
+    }
+  }
+  form {
     .gform_body {
       //width: 100%!important; // over-ride gform styling media query
-      width: 80%;
-      max-width: 80%;
-      display: inline-block;
+      width: 100%;
+      //max-width: 80%;
+      display: inline-block; 
       .gfield input {
         background-color: white;
       }
-    }
-    .gform_footer.top_label {
-      top: 4px;
-      display: inline-block;
-      input {
-        background-color: white;
+      #field_submit { // when places at end of last row.
+        input[type=submit] {
+          color: white;
+          background-color: $amjambo-red;
+          border-radius: 0px;
+        }
+        input[type=submit]:hover {
+          background-color: $amjambo-orange;
+        }
       }
+    }
+    .gform_footer {
+      //top: 4px;
+      //display: inline-block;
+      padding-top:0px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
     }
   } // forms
 } // wrapper with class
+

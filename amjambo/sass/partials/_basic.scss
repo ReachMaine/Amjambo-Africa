@@ -1,25 +1,24 @@
 /* basic css stuff */
-/* .reach-responsive-video {
-	position: relative;
-	padding-bottom: 50.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-	margin-bottom: 1em;
-	iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-	}
-} */
+.et_pb_module.reach-branding {
+  a:before {
+    content: url('images/reach-favicon.png');
+    padding-right: 4px;
+  }
+}
+
 body {   
 	font-family: 'myriad-pro',sans-serif;
 }
 // also need to add to extra -> theme options -> custom css (so we dont need the "important" flag here.)
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-family: 'minion-pro-condensed', Georgia, "Times New Roman", serif;
+}
+
+.amjambo-myriad { // class to use myriad - typically for h-tags (used in footer)
+	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		font-family: 'myriad-pro',sans-serif;
+	}
+	
 }
 
 
@@ -54,8 +53,8 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 	.search-form {
 		background-color: white;
-    border-radius: 36px;
-    border: 1px solid #c1c1c1;
+   		border-radius: 36px;
+    	border: 1px solid #c1c1c1;
 		//margin-top: 6px;
 		.search-field {
 			color: #929292;
@@ -96,40 +95,39 @@ header.et-l.et-l--header { // from:  https://www.peeayecreative.com/how-to-fix-t
 		}
 	}
 }
-.et_pb_module.et_pb_menu.rmm-menu-full {
-	.et_pb_menu__menu {
-		width: 100%;
-		.et-menu-nav {
-			width:100%;
-			.et-menu.nav {
-				width: 100%;
-				justify-content: space-around;
-			}
-		}
+
+// et-buttons
+.et_pb_module.et_pb_posts article,
+.et_pb_module.et_pb_post_content,
+.et_pb_module.et_pb_text,
+.et_pb_module.et_pb_blurb .et_pb_blurb_description,
+.et_pb_module.et_pb_toggle .et_pb_toggle_content,
+.et_pb_module.et_pb_tabs .et_pb_tab_content,
+.et_pb_post,
+.tribe-events-content {
+	a.small-button {
+		font-size: 14px;
 	}
-}
-.et_pb_module.et_pb_menu.rmm-menu-mobile-icon-left {
-	.et_pb_menu__wrap {
-		justify-content: flex-start!important;
-		.et_mobile_nav_menu {
-			.et_mobile_menu {
-				max-width:400px;
-				padding: 3%;
-				li {
-					margin-bottom: 0px;
-					a {
-						border-bottom: 1px solid rgb(255 255 255 / 37%);
-					}
-				}
-				.mobile-toggle {
-					i {
-						font-size: 20px;
-						color: white;
-					}
-				}
-			}
-		}
-	}
-	
+  a.small-button,
+  a.big-button {
+    color: $button-color!important;
+	border-width: 0px;
+    border-radius: 0px;
+    border: 1px solid $button-border;
+	text-shadow: none;
+	box-shadow: none;
+  }
+  a.smallred,
+  a.bigred {
+    background-color: $button-bkg!important;
+    background: $button-bkg!important;
+  }
+  a.smallred:hover,
+  a.bigred:hover {
+    color: $button-hover-color!important;
+    background-color: $button-hover-bkg!important;
+    background: $button-hover-bkg!important;
+	border-color: $button-hover-bkg;
+  }
 }
 
