@@ -130,4 +130,44 @@ header.et-l.et-l--header { // from:  https://www.peeayecreative.com/how-to-fix-t
 	border-color: $button-hover-bkg;
   }
 }
+/* @media (min-width:981px) { // bigger than mobile-tablet */
+	.et_pb_column.rmm-sidebyside8020 {
+		display: flex;
+		flex-direction: row;
+		.rmm-second {
+			order: 2;
+		}
+		.rmm-first {
+			order: 1;
+		}
+	}
+/*} */
+@media (min-width:981px) { // bigger than mobile-tablet
+	.et_pb_column.rmm-vert-half {
+		display: flex;
+		flex-direction: column;
+		.et_pb_module {
+			display:flex;
+			flex-grow: 1;
+			align-items:center;
+		}
+	}
+}
+
+// vertically center stuff.
+.et_pb_module.rmm-vcenter {
+	display:flex;
+	align-items:center;
+}
+
+
+@media (min-width:981px) { // bigger than mobile-tablet
+	.et_pb_module.rmm-vcenter-lg {
+		display:flex;
+		align-items:center;
+	}
+}
+
+
+
 

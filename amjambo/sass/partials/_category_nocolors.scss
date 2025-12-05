@@ -1,0 +1,390 @@
+/* styling for content based colors... */
+
+// menu Colors
+/* 
+#main-header {
+  #et-navigation {
+    #et-menu{ // for styling that affects all menu items see style.scss
+            // colors per category
+      >li.amjam-cat-news>a:before { // news
+        background-color: $amjam-news-color;
+      }
+      >li.amjam-cat-news>a:hover,
+      >li.amjam-cat-news.current-menu-item a {
+        color: $amjam-news-color;
+      }
+      li.amjam-cat-news {
+        .sub-menu {
+          border-color: $amjam-news-color;
+        }
+      }
+
+      >li.amjam-cat-opine>a:hover,
+      >li.amjam-cat-opine.current-menu-item a { // opinion
+        color: $amjam-opinion-color;
+      }
+      >li.amjam-cat-opine>a:before {
+        background-color: $amjam-opinion-color;
+      }
+      li.amjam-cat-opine {
+        .sub-menu {
+          border-color: $amjam-opinion-color;
+        }
+      }
+
+      >li.amjam-cat-culture>a:hover,
+      >li.amjam-cat-culture.current-menu-item a  { // culture
+        color: $amjam-culture-color;
+      }
+      >li.amjam-cat-culture>a:before {
+        background-color: $amjam-culture-color;
+      }
+      li.amjam-cat-culture {
+        .sub-menu {
+          border-color: $amjam-culture-color;
+        }
+      }
+
+      >li.amjam-cat-africa>a:hover,
+      >li.amjam-cat-africa.current-menu-item a   { // about africa
+        color: $amjam-africa-color;
+      }
+      >li.amjam-cat-africa>a:before {
+        background-color: $amjam-africa-color;
+      }
+      li.amjam-cat-africa {
+        .sub-menu {
+          border-color: $amjam-africa-color;
+        }
+      }
+
+      >li.amjam-cat-calendar>a:hover,
+      >li.amjam-cat-calendar.current-menu-item a  { // calendar
+        color: $amjam-calendar-color;
+      }
+      >li.amjam-cat-calendar>a:before {
+        background-color: $amjam-calendar-color;
+      }
+
+      >li.amjam-cat-listings>a:hover,
+      >li.amjam-cat-listings.current-menu-item a { // listings
+        color: $amjam-listings-color;
+      }
+      >li.amjam-cat-listings>a:before {
+        background-color: $amjam-listings-color;
+      }
+      li.amjam-cat-listings {
+        .sub-menu {
+          border-color: $amjam-listings-color
+        }
+      }
+    }
+  }
+  #et-mobile-navigation {
+  }
+}
+  */
+.page-container .et_extra_other_module,
+.page-container .et_pb_extra_module.et_pb_extra_module,
+.page-container .et_pb_extra_module,
+.posts-blog-feed-module.masonry .hentry,
+.single-post article,
+.page article {
+  border-top: 0px!important;
+}
+// single articles
+.single-post {
+  #main-content {
+    article {
+      //border-top: 4px solid $amjam-submenu-bkg;
+      border-top: 0px!important;
+    }
+    // news and child categories
+
+    article.category-nouvelles, //fr
+    article.category-makuru,
+    article.category-habari,
+    article.category-news-in-brief,
+      article.category-novidades-em-breve, // pt
+    article.category-maine,
+    article.category-africa,
+      article.category-afrique,  // fr
+      article.category-amakuru-ya-afurika, // kin
+      article.category-63, // swa
+      article.category-148, // som
+    article.category-profiles,
+      article.category-195, // fr
+      article.category-196, // kin
+      article.category-197, // swa
+      article.category-194, // som
+      // pt
+      article.category-noticia,
+      article.category-perfis,
+      article.category-maine-pt-pt,
+      article.category-estados-unidos,
+      article.category-africa-pt-pt,
+    article.category-news,
+       {
+      border-top-color: $amjam-news-color;
+    }
+    // culture and children
+    article.category-culture,
+    article.category-culture-fr,
+    article.category-umuco,
+    article.category-utamaduni,
+    article.category-culture-comparison,
+    article.category-comparaison-culturelle, // fr
+    article.category-kugereranya-imic, // kin
+    article.category-ulinganisho-wa-kitamaduni, // swa
+    article.category-isbarbardhiga-dhaqamada, // somali
+    article.category-arts,
+    article.category-arts-musique,
+    article.category-amashusho-nmuzika,
+    article.category-farshaxanka,
+    article.category-art-music-dance-theater,
+    article.category-sports,
+    article.category-poetry,
+    article.category-food-farming-restaurants,
+    article.category-restaurants-fr, // fr
+    article.category-restora, // kin
+    article.category-migahawa, // swa
+    article.category-makhayadaha, // somali
+    //pt
+    article.category-cultura,
+    article.category-artes,
+    article.category-comparacao-cultural,
+    article.category-restaurantes,
+     {
+      border-top-color:  $amjam-culture-color;
+    }
+    // opinion
+    article.category-opinion,
+    article.category-opinion-fr,
+    article.category-ibitekerozo-byabantu,
+    article.category-maoni-na-mafikiri,
+    article.category-letters-to-the-editor,
+    article.category-42,  // fr
+    article.category-116, // kin
+    article.category-71, // swa
+    article.category-154, // som
+    article.category-amjambo-view,
+    article.category-44, //fr
+    article.category-114, // kin
+    article.category-73, // swa
+    article.category-152, // som
+    // pt
+    article.category-opiniao,
+    article.category-cartas-para-o-editor,
+    article.category-colunistas,
+    article.category-visao-do-amjambo,
+
+ {
+      border-top-color:  $amjam-opinion-color;
+    }
+    // about africa
+    article.category-about-africa,
+    article.category-country-focus,
+      article.category-51, // fr
+      article.category-95, // kin
+      article.category-79, // swa
+      //article.category-n, // swa
+    article.categor-a-propos-de-lafrique,
+    article.category-amakuru-yafrika,
+    article.category-kuhusu-afrika,
+    article.category-from-the-ground,
+    article.category-a-partir-du-sol, // fr
+    article.category-amakuru-aturuka-kuri-gakondo,// kin
+    article.category-kutoka-ardhi, // swa
+    article.category-from-the-ground-so,
+    article.category-cuntry-focus,
+    article.focus-surles-pays, // fr
+    article.makuru-arambuye-kubihugu, //kin
+    article.habari-kwaurefu-za-nchi,//swa
+    //pt
+      article.category-sobre-a-africa,
+      article.category-a-partir-do-solo,
+      article.category-pais-em-foco,
+       {
+      border-top-color: $amjam-africa-color;
+    }
+    // listings & Services
+    article.category-listings-services,
+      article.category-listes-des-services,
+      article.category-urutonde-na-serivisi,
+      article.category-liiska-adeegyada,
+      article.category-huduma-za-orodha
+    article.category-clothing-closets,
+    article.category-community-associations,
+    article.category-federal-holidays,
+    article.category-food-pantries,
+    article.category-health-care,
+    article.category-help-wanted,
+    article.category-housing,
+    article.category-non-profit-organizations,
+      article.category-24,  // fr
+      article.category-191, // kin
+      article.category-190, // swa
+    article.category-professional-connections-program,
+    article.category-soup-kitchens,
+    article.category-volunteer-opportunities
+       {
+      border-top-color: $amjam-listings-color;
+      .post-meta {
+        display: none; // not strickly a color, but still category dependent
+      }
+    }
+  }
+}
+// category archives -> got to be a better way....
+// news category
+  .archive.category-news, // ENG
+  .archive.category-news-in-brief,
+  .archive.category-united-states,
+  .archive.category-africa,
+    .archive.category-afrique,  // fr
+    .archive.category-amakuru-ya-afurika, // kin
+    .archive.category-63, // swa
+    .archive.category-148, // som
+  .archive.category-maine,
+  .archive.category-profiles,
+    .archive.category-195, // fr
+    .archive.category-196, // kin
+    .archive.category-197, // swa
+    .archive.category-194, // som
+  .archive.category-legislative-update,
+  .archive.category-nouvelles, // FR
+  .archive.category-nouvelles-en-breves,
+  .archive.category-maine-fr,
+  .archive.category-afrique,
+  .archive.category-mises-a-jour-legislatives,
+  .archive.category-makuru,// kir
+  .archive.category-incamake-yamakuru,
+  .archive.category-wararka,// somali
+  .archive.category-war-saxaafadeed,
+  .archive.category-habari, // swa
+  .archive.category-habari-kwa-kifupi,
+    //pt
+
+    .archive.category-novidades-em-breve,
+    .archive.category-perfis,
+    .archive.category-maine-pt-pt,
+    .archive.category-estados-unidos,
+    .archive.category-africa-pt-pt,
+
+   {
+    .posts-blog-feed-module {
+      border-top-color: $amjam-news-color;
+    }
+  }
+// opinion archives
+  .archive.category-opinion, // ENG
+    .archive.category-opinion-fr, // FR
+    .archive.category-ibitekerozo-byabantu,// kir
+    .archive.category-fikradaha,// somali
+    .archive.category-maoni-na-mafikiri, // swa
+  .archive.category-letters-to-the-editor,
+    .archive.category-42,  // fr
+    .archive.category-116, // kin
+    .archive.category-71, // swa
+    .archive.category-154, // som
+  .archive.category-amjambo-view,
+    .archive.category-44, //fr
+    .archive.category-114, // kin
+    .archive.category-73, // swa
+    .archive.category-152, // som
+    // pt
+    .archive.category-214, .archive.category-215, .archive.category-216, .archive.category-217,
+  {
+   .posts-blog-feed-module {
+     border-top-color: $amjam-opinion-color;
+   }
+  }
+// culture archives
+  .archive.category-culture, // ENG
+  .archive.category-culture-fr, // FR
+  .archive.category-umuco,// kir
+  .archive.category-dhaqanka,// somali
+  .archive.category-utamaduni, // swa
+  .archive.category-art-music-dance-theater,
+  .archive.category-culture-comparison,
+  .archive.category-comparaison-culturelle,// fr
+  .archive.category-kugereranya-imico, // kin
+  .archive.category-ulinganisho-wa-kitamaduni,  // swa
+  .archive.category-isbarbardhiga-dhaqamada,  // somali
+  .archive.category-sports,
+  .archive.category-poetry,
+  .archive.category-food-farming-restaurants,
+  .archive.category-restaurants-fr, // fr
+  .archive.category-restora, // kin
+  .archive.category-migahawa, // swa
+  .archive.category-makhayadaha, // somali
+  // pt
+  .archive.category-209, .archive.category-210, .archive.category-211, .archive.category-226,
+  {
+   .posts-blog-feed-module {
+     border-top-color: $amjam-culture-color;
+   }
+  }
+// africa archives
+  .archive.category-about-africa, // ENG
+    .archive.category-11,
+    .archive.category-a-propos-de-lafrique, // FR
+    .archive.category-amakuru-yafrika,// kir
+    //.archive.category-,// somali
+    .archive.category-kuhusu-afrika, // swa
+  .archive.category-from-the-ground,
+    .archive.category-3,
+    .archive.category-a-partir-du-sol,// fr
+    .archive.category-amakuru-aturuka-kuri-gakondo, //kin
+    .archive.category-kutoka-ardhi,//swa
+    .archive.category-from-the-ground-so,
+  .archive.category-country-focus,
+    .archive.category-51, // fr
+    .archive.category-95, // kin
+    .archive.category-79, // swa
+    //.archive.category-79, // swa
+    .archive.category-24,
+    // pt
+    .archive.category-205, .archive.category-206, .archive.category-206,
+  {
+   .posts-blog-feed-module {
+     border-top-color: $amjam-africa-color;
+   }
+  }
+// "More" archive_list_style
+.archive.category-listings-services,
+.archive.category-clothing-closets,
+.archive.category-community-associations,
+.archive.category-federal-holidays,
+.archive.category-food-pantries,
+.archive.category-health-care,
+.archive.category-help-wanted,
+.archive.category-housing,
+.archive.category-non-profit-organizations,
+  .archive.category-189,  // fr
+  .archive.category-191, // kin
+  .archive.category-190, // swa
+  //.archive.category-xxx // som
+.archive.category-professional-connections-program,
+.archive.category-soup-kitchens,
+.archive.category-volunteer-opportunities
+{
+   .posts-blog-feed-module {
+     border-top-color: $amjam-listings-color;
+     article {
+       .post-meta {
+         display: none;
+       }
+     }
+   }
+}
+
+
+.single-tribe_events {
+    #main-content {
+      article {
+        //border-top: 4px solid  $amjam-calendar-color;
+        border-top: 0px!important;
+      }
+    }
+}
