@@ -440,11 +440,12 @@ article.post .post-footer {
   align-items: center;
 }
 
-.et_pb_module.et_pb_menu.rmm-menu-vertical .et_pb_menu__menu nav.et-menu-nav ul.et-menu {
-  flex-direction: column;
+@media only screen and (min-width: 981px) {
+  .et_pb_module.et_pb_menu.rmm-menu-vertical .et_pb_menu__menu nav.et-menu-nav ul.et-menu {
+    flex-direction: column;
+  }
 }
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 980px) {
   .et_pb_module.et_pb_menu.rmm-menu-vertical .et_pb_menu__wrap {
     justify-content: center;
   }

@@ -49,6 +49,7 @@
 }
 
 // stack menu 
+@media only screen and ( min-width: 981px ) {   // show as stacked menu at desktop
   .et_pb_module.et_pb_menu.rmm-menu-vertical {
     .et_pb_menu__menu {
       nav.et-menu-nav {
@@ -58,7 +59,8 @@
       }
     }
  }
-@media only screen and ( max-width: 767px ) {
+}
+@media only screen and ( max-width: 980px ) { // tablet & mobile, let it wrap but center 'em
   .et_pb_module.et_pb_menu.rmm-menu-vertical {
     .et_pb_menu__wrap {
       justify-content: center;
