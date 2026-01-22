@@ -134,6 +134,7 @@ header.et-l.et-l--header { // from:  https://www.peeayecreative.com/how-to-fix-t
 	.et_pb_column.rmm-sidebyside8020 {
 		display: flex;
 		flex-direction: row;
+		justify-content: flex-end;
 		.rmm-second {
 			order: 2;
 		}
