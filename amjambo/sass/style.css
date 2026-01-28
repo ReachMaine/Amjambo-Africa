@@ -433,6 +433,9 @@ article.post .post-footer {
 .et_pb_module.et_pb_menu li.rmm-menu-item-pill a {
   color: white !important;
 }
+.et_pb_module.et_pb_menu li.rmm-menu-item-pill.current-menu-item a {
+  color: white !important;
+}
 
 .et_pb_module.et_pb_menu.rmm-menu-icon-center .et_pb_menu_inner_container {
   height: 100%;
