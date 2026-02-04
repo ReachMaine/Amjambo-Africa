@@ -200,6 +200,14 @@ header.et-l.et-l--header {
     align-items: center;
   }
 }
+.et_extra_other_module,
+.et_pb_extra_module,
+.posts-blog-feed-module.standard,
+.posts-blog-feed-module.masonry .hentry,
+.page article {
+  border-top-width: 0px !important;
+}
+
 /* *********** styling for wpml *********** */
 .wpml-ls {
   width: 100%;
