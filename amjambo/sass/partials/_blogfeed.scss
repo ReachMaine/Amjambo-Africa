@@ -1,0 +1,116 @@
+// classes for the blog feed modules on the category pages.
+
+// generical styling for blog modules (blog fee & post module)
+.posts-blog-feed-module, 
+.post-module {
+    -webkit-box-shadow: none; // ditch the box shadow
+    box-shadow: none;
+}
+// ditch the borders between articles.
+.posts-blog-feed-module {
+    .hentry {
+        border-bottom: 0px;
+    }
+}
+
+.et_pb_extra_module.post-module {
+    .main-post {
+        border-right: 0px!important;
+    }
+    ul.posts-list {
+        li {
+            border-bottom: 0px;
+        }
+    }
+}
+
+
+.post-module.amjam-hide-summary {
+    article.hentry {
+        .post-content {
+            .excerpt.entry-summary {
+                display: none!important;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+.post-module.et_pb_extra_module.amjam-posts-featured {
+   // use 2/3 1/3 insteat of 50/50
+    .main-post {
+       // width: 65%!important;
+    }
+    ul.posts-list{
+        //width: 35%!important;
+        li {
+            article {
+                .post-thumbnail {
+                     // make image bigger on side list...
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+        }
+    } 
+
+}
+@media only screen and ( min-width: 768px ) { // bigger than tablet
+    .post-module.et_pb_extra_module.amjam-posts-featured {
+         // use 2/3 1/3 insteat of 50/50
+        .main-post {
+            width: 65%!important;
+        }
+         ul.posts-list{
+        width: 35%!important;
+         }
+    }
+}
+@media only screen and ( max-width: 767px ) { // tablet and smaller
+    .post-module.et_pb_extra_module.amjam-posts-featured {
+         // go full width at smaller screens
+        .main-post {
+            width: 100%!important;
+        }
+         ul.posts-list{
+        width: 100%!important;
+         }
+    }
+}
+
+@media only screen and ( min-width: 768px ) { // bigger than tablet
+
+    .posts-blog-feed-module.amjam-feed-3across  {
+        .paginated_page  {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            
+            article.hentry {
+                flex-direction: column;
+                padding: 0px;
+                flex: 1 1 30%;
+                padding-bottom: 15px;
+                .header {
+                    width: 100%!important;
+                    padding-right: 0px;
+
+                }
+                .post-content {
+                    width: 100%!important;
+                    padding-left: 0px;
+                }
+
+            }
+            article.hentry:not(:nth-child(3n)) { // not every third child
+                padding-right: 20px;
+            }
+        }
+
+    }
+}
