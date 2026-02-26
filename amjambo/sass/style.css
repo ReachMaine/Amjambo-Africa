@@ -445,6 +445,10 @@ article.post .post-footer {
   color: white !important;
 }
 
+.et_pb_module.et_pb_menu.rmm-menu-footer li.rmm-menu-item-pill {
+  background-color: #e8ce75;
+}
+
 .et_pb_module.et_pb_menu.rmm-menu-icon-center .et_pb_menu_inner_container {
   height: 100%;
 }
@@ -595,6 +599,15 @@ article.post .post-footer {
     padding-right: 20px;
   }
 }
+.et_pb_module.et_pb_code.amjam-ads-across .g {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  align-items: center;
+}
+
 /**** header stuff... ***/
 #top-header {
   background-image: url(./images/tag-line.png);
