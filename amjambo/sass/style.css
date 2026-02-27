@@ -445,10 +445,6 @@ article.post .post-footer {
   color: white !important;
 }
 
-.et_pb_module.et_pb_menu.rmm-menu-footer li.rmm-menu-item-pill {
-  background-color: #e8ce75;
-}
-
 .et_pb_module.et_pb_menu.rmm-menu-icon-center .et_pb_menu_inner_container {
   height: 100%;
 }
@@ -548,6 +544,7 @@ article.post .post-footer {
 }
 .et_pb_extra_module.post-module ul.posts-list li {
   border-bottom: 0px;
+  padding: 20px 0px 0px 20px;
 }
 
 .post-module.amjam-hide-summary article.hentry .post-content .excerpt.entry-summary {
@@ -609,94 +606,119 @@ article.post .post-footer {
 }
 
 /**** header stuff... ***/
+/**  OLD - before used Theme builder **
 #top-header {
-  background-image: url(./images/tag-line.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: contain;
-  padding: 15px 0;
+  // .container {
+    background-image: url(./images/tag-line.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    padding: 15px 0;
+//  }
 }
-
+// set header background-image
 #main-header {
-  background-image: url(./images/header-bkg-slice.jpg);
-  background-position: top center;
-  background-size: contain;
-}
-#main-header #header-widget-wrap {
-  width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-#main-header #header-widget-wrap .widget {
-  float: right;
-}
-#main-header #header-widget-wrap .widget:not(:first-child) {
-  margin-right: 20px;
-}
-#main-header #header-banner {
-  background-color: #b7152c;
-}
-#main-header #header-banner .tagline-img {
-  width: 20%;
-  margin-top: -40px;
-}
-#main-header #header-banner .tagline {
-  width: 78%;
-  display: inline-block;
-  padding-top: 10px;
-}
-#main-header .amjam-menu-wrapper {
-  background-color: white;
-}
-#main-header #et-navigation {
-  background-color: white;
-  width: 100%;
-}
-#main-header #et-navigation ul#et-menu {
-  width: 100%;
-  justify-content: space-between;
-}
-#main-header #et-navigation ul#et-menu > li > a:before {
-  top: 38px;
-}
-#main-header #et-navigation ul#et-menu > li > a {
-  padding-top: 24px;
-  padding-bottom: 30px;
-}
-#main-header #et-navigation ul#et-menu li.menu-item-has-children > a:hover:after,
-#main-header #et-navigation ul#et-menu li.menu-item-has-children > a:after {
-  color: black;
-  font-weight: bold;
-}
-#main-header #et-navigation ul#et-menu ul.sub-menu {
-  background-color: #e8ce75;
-}
-#main-header #et-navigation ul#et-menu ul.sub-menu li.menu-item {
-  padding: 0 20px;
-}
-#main-header #et-navigation ul#et-menu ul.sub-menu li.menu-item a {
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
-  padding: 5px 0;
-}
-#main-header #et-navigation #et-mobile-navigation .show-menu-button {
-  margin-left: 18px;
-}
-#main-header #et-navigation .search-form .screen-reader-text, #main-header #et-navigation .search-form .search-submit {
-  display: none;
-}
-#main-header #et-navigation .search-form .search-field {
-  width: 200px;
-  background-color: rgba(255, 255, 255, 0.7);
-}
+    background-image: url(./images/header-bkg-slice.jpg);
+    background-position: top center;
+    background-size: contain;
+    #header-widget-wrap { // place for donate today button
+      width: 100%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      .widget {
+        float: right;
+      }
+      .widget:not(:first-child) {
+        margin-right: 20px; // make bigger
 
-.post-module.et_pb_extra_module.amjam-one-post-list .posts-list {
-  width: 0px;
-  display: none;
-}
+      }
+    }
+    #header-banner {
+      background-color: $amjam-banner-color;
+      //padding: 5px 0;
+      //height: 70px;
+      .tagline-img {
+        width: 20%;
+        margin-top: -40px;
 
+      }
+      .tagline {
+        width: 78%;
+        display: inline-block;
+        padding-top: 10px;
+      }
+
+    }
+    .amjam-menu-wrapper {
+      background-color: white;
+    }
+  #et-navigation {
+    background-color: white;
+    width: 100%;
+    ul#et-menu {// ul
+      //margin : auto;
+      width: 100%;
+      justify-content: space-between;
+      >li>a:before {
+          top: 38px;
+      }
+      >li>a {
+        padding-top:24px;
+        padding-bottom: 30px;
+      }
+      // arrow indicating flyout menu
+      li.menu-item-has-children>a:hover:after,
+      li.menu-item-has-children>a:after {
+        color: black;
+        font-weight: bold;
+      }
+      ul.sub-menu {
+        background-color: $amjam-submenu-bkg;
+        li.menu-item {
+           padding: 0 20px;
+           a {
+             font-size: 18px;
+             color: rgba(0,0,0,0.8);
+             padding: 5px 0;
+           }
+         }
+
+
+      } // sub-menu
+
+
+    }
+    #et-mobile-navigation {
+      .show-menu-button {
+        margin-left: 18px;
+      }
+    }
+    // search form in menu
+    .search-form {
+      .screen-reader-text, .search-submit {
+        display: none;
+      }
+      .search-field {
+        width: 200px;
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  } // et-navigation
+}
+// homepage
+.post-module.et_pb_extra_module.amjam-one-post-list { // see media styling for more
+  .posts-list {  // this is empty so no need to have width
+    width: 0px;
+    display: none;
+  }
+}
+*****/
 /* content */
+#main-content {
+  padding-top: 0px;
+}
+
 body.single-post article .post-header {
   padding: 30px 20px;
 }

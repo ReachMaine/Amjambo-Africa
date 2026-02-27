@@ -23,6 +23,7 @@
 
 
 /**** header stuff... ***/
+/**  OLD - before used Theme builder **
 #top-header {
   // .container {
     background-image: url(./images/tag-line.png);
@@ -129,7 +130,13 @@
     display: none;
   }
 }
+*****/ 
+
+
 /* content */
+#main-content {
+  padding-top: 0px;  // too much space above everything. 
+}
 // single post
 body.single-post {
   article {
