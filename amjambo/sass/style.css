@@ -159,9 +159,9 @@ header.et-l.et-l--header {
 .tribe-events-content a.smallred:hover,
 .tribe-events-content a.bigred:hover {
   color: white !important;
-  background-color: #f0a500 !important;
-  background: #f0a500 !important;
-  border-color: #f0a500;
+  background-color: #f2ad41 !important;
+  background: #f2ad41 !important;
+  border-color: #f2ad41;
 }
 
 /* @media (min-width:981px) { // bigger than mobile-tablet */
@@ -347,7 +347,7 @@ ul.ecs-event-list li.ecs-event:not(:last-child) .entry-title {
   border-radius: 0px;
 }
 .gform_wrapper.amjam-white-fields_wrapper form .gform_body #field_submit input[type=submit]:hover {
-  background-color: #f0a500;
+  background-color: #f2ad41;
 }
 .gform_wrapper.amjam-white-fields_wrapper form .gform_footer {
   padding-top: 0px;
@@ -605,6 +605,11 @@ article.post .post-footer {
   align-items: center;
 }
 
+/* .single-post article .g {
+    max-width: 60%;
+    background-color: $amjambo-orange;// #f2ad4152;
+    margin-right: -12%;
+} */
 /**** header stuff... ***/
 /**  OLD - before used Theme builder **
 #top-header {
