@@ -117,6 +117,13 @@ header.et-l.et-l--header { // from:  https://www.peeayecreative.com/how-to-fix-t
 	text-shadow: none;
 	box-shadow: none;
   }
+  a.big-button.pill { // add class= " pill" to the button shortcode.
+	border-radius: 30px;
+  }
+  a.small-button.pill {
+	border-radius: 12px; // a guess.
+  }
+  // red
   a.smallred,
   a.bigred {
     background-color: $button-bkg!important;
@@ -129,6 +136,26 @@ header.et-l.et-l--header { // from:  https://www.peeayecreative.com/how-to-fix-t
     background: $button-hover-bkg!important;
 	border-color: $button-hover-bkg;
   }
+  // orange
+  a.smallorange,
+  a.bigorange {
+	background-color: $amjambo-orange;
+    background: $amjambo-orange;
+  }
+  a.smallorange:hover,
+  a.bigorange:hover {
+	background-color:#000000;
+	background: #000000;
+  }
+  // black
+  a.smallblack,
+  a.bigblack {
+	border: 0px;
+	background-color: black;
+    background: black;
+  }
+
+
 }
 /* @media (min-width:981px) { // bigger than mobile-tablet */
 	.et_pb_column.rmm-sidebyside8020 {
@@ -177,5 +204,40 @@ header.et-l.et-l--header { // from:  https://www.peeayecreative.com/how-to-fix-t
 	border-top-width: 0px!important;
 }
 
+@media all and (max-width: 980px) { // nav menu,  woo & footer widgtes
+
+   .rmm-row-stackorder  { // on the row
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap; /* Safari 6.1+ */
+		flex-wrap: wrap;
+        .rmm-fourth-on-tablet { // on the columns
+			-webkit-order: 4;
+			order: 4;
+		}   
+        .rmm-third-on-tablet {
+			-webkit-order: 3;
+			order: 3;
+		}   
+
+		.rmm-second-on-tablet {
+			-webkit-order: 2;
+			order: 2;
+		}
+		.rmm-first-on-tablet {
+			-webkit-order: 1;
+			order: 1;
+		}
+	}
+}
 
 
+/* fix weird content at tablet */
+@media only screen and (max-width: 768px) {
+    .posts-blog-feed-module .paginated_content .paginated_page[data-columns]::before {
+        content: ""!important;
+    }
+}
