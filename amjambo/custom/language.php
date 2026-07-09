@@ -17,9 +17,12 @@
 						break; */
 						case 'extra': {
 							switch ( $translated_text ) {
-									 case 'Read More' : //
-											 $translated_text =  'See More';
-											 break;
+									case 'Read More' : //
+										$translated_text =  'See More';
+										break;
+									case 'Posted by %s' : 
+										$translated_text = '%s';
+										break;
 							 }
 						} // end ohin
 					default:
