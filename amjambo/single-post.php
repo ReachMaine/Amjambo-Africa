@@ -47,7 +47,7 @@
 												$date_display_format = et_get_option( 'extra_date_format', '' );
 												$updated_date = get_the_modified_time($date_display_format);
 												$outstr .= " ".$updated_date."</span>";
-												$outstr .=  " |  Posted: " ;
+												$outstr .=  " | " ;
 												echo $outstr;
 										} /* end updated date */
 
