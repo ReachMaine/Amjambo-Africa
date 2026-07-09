@@ -92,7 +92,8 @@
 
 // laptop
 @media only screen and ( min-width: 768px ) { // bigger than tablet
-
+    .posts-blog-feed-module.amjam-feed-1across,
+    .posts-blog-feed-module.amjam-feed-2across,
     .posts-blog-feed-module.amjam-feed-3across  {
         .paginated_page  {
             display: flex;
@@ -103,7 +104,7 @@
             article.hentry {
                 flex-direction: column;
                 padding: 0px;
-                flex: 1 1 30%;
+                //flex: 1 1 30%;
                 padding-bottom: 15px;
 
                 .header {
@@ -124,15 +125,42 @@
                 }
 
             }
+
+        }
+
+    }
+    .posts-blog-feed-module.amjam-feed-1across  {
+        .paginated_page  {           
+            article.hentry {
+                  flex: 1 1 100%;
+            }
+        }
+    }
+    .posts-blog-feed-module.amjam-feed-2across  {
+        .paginated_page  {           
+            article.hentry {
+                  flex: 1 1 48%;
+            }
+            article.hentry:not(:nth-child(2n)) { // not every 2nd child
+                padding-right: 20px;
+            }
+
+        }
+    }
+    .posts-blog-feed-module.amjam-feed-3across  {
+        .paginated_page  {           
+            article.hentry {
+                  flex: 1 1 30%;
+            }
             article.hentry:not(:nth-child(3n)) { // not every third child
                 padding-right: 20px;
             }
         }
-
     }
 }
 @media only screen and ( max-width: 767px ) { // tablet + smaller
 
+    .posts-blog-feed-module.amjam-feed-1across, 
     .posts-blog-feed-module.amjam-feed-3across  { // single across
         .paginated_page  {
 
