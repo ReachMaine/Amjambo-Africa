@@ -534,17 +534,27 @@ article.post .post-footer {
     display: flex;
   }
 }
-.et_pb_module.et_pb_menu li.rmm-menu-item-pill {
+.et-db #et-boc .et-l .et_pb_menu_1_tb_header.et_pb_menu ul li.rmm-menu-item-pill,
+.et_pb_module.et_pb_menu ul li.rmm-menu-item-pill {
   background-color: black;
   margin-top: 0px !important;
   padding: 8px 20px 0px 20px;
   border-radius: 20px;
 }
-.et_pb_module.et_pb_menu li.rmm-menu-item-pill a {
+.et-db #et-boc .et-l .et_pb_menu_1_tb_header.et_pb_menu ul li.rmm-menu-item-pill a,
+.et_pb_module.et_pb_menu ul li.rmm-menu-item-pill a {
   color: white !important;
 }
+.et-db #et-boc .et-l .et_pb_menu_1_tb_header.et_pb_menu li.rmm-menu-item-pill.current-menu-item a,
 .et_pb_module.et_pb_menu li.rmm-menu-item-pill.current-menu-item a {
   color: white !important;
+}
+
+.et_pb_module.et_pb_menu ul li.rmm-menu-indent a {
+  padding-left: 32px;
+}
+.et_pb_module.et_pb_menu ul li.rmm-menu-indent a:before {
+  content: "";
 }
 
 .et_pb_module.et_pb_menu.rmm-menu-icon-center .et_pb_menu_inner_container {

@@ -24,9 +24,10 @@
 }
 
 // style / hight an item on the menu
-// add class to menu item.  
+// add class to menu item. 
+.et-db #et-boc .et-l .et_pb_menu_1_tb_header.et_pb_menu,  // trying to overwrite color with specificity
 .et_pb_module.et_pb_menu {
-  li.rmm-menu-item-pill {
+  ul li.rmm-menu-item-pill {
       background-color: black;
 
       margin-top: 0px!important;
@@ -43,7 +44,16 @@
     }
   }
 }
-
+.et_pb_module.et_pb_menu {
+  ul li.rmm-menu-indent {
+    a {
+      padding-left: 32px;
+    }
+    a:before {
+      content: "";
+    }
+  }
+}
 
 .et_pb_module.et_pb_menu.rmm-menu-icon-center {
     .et_pb_menu_inner_container {
